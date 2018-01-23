@@ -1,2 +1,3 @@
-# 2pioneers-of-the-world
-preview the software course next term
+
+
+lzb and lyb try to preview the software course next term.
