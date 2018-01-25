@@ -11,5 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.junit:junit5-api:5.0.0-ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.0.0-ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.junit:junit-commons:5.0.0-ALPHA" level="project" />
   </component>
 </module>
