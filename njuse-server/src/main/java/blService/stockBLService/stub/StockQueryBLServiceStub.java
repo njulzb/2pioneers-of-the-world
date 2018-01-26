@@ -2,7 +2,7 @@ package blService.stockBLService.stub;
 
 import blService.stockBLService.StockQueryBLService;
 import utility.keyForSearch.KeyForSearchStock;
-import utility.resultMsg.StockResultMsg;
+import utility.resultMsg.voResultMsg.StockResultMsg;
 import vo.StockItem;
 import vo.StockVO;
 

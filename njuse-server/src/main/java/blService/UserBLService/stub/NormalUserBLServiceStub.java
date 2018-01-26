@@ -1,7 +1,7 @@
 package blService.UserBLService.stub;
 
 import blService.UserBLService.NormalUserBLService;
-import utility.resultMsg.UserResultMsg;
+import utility.resultMsg.voResultMsg.UserResultMsg;
 import vo.UserVO;
 
 public class NormalUserBLServiceStub implements NormalUserBLService {

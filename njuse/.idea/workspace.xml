@@ -2,37 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1401fade-295c-4fc4-b544-8e10daf1d748" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/NormalUserBLService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/StockQueryBLService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/keyForSearch/KeyForSearchStock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/MarketResultMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/ResultMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/StockResultMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/UserResultMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/MarketVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/StockVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/UserVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vo/StockItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utility/resultMsg/StockResultMsg.class" afterPath="$PROJECT_DIR$/target/classes/utility/resultMsg/StockResultMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/vo/MarketVO.class" afterPath="$PROJECT_DIR$/target/classes/vo/MarketVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/vo/StockVO.class" afterPath="$PROJECT_DIR$/target/classes/vo/StockVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/vo/UserVO.class" afterPath="$PROJECT_DIR$/target/classes/vo/UserVO.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/MarketResultMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/StockResultMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/UserResultMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/MarketResultMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/StockResultMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/UserResultMsg.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/UserBLService/NormalUserBLService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/UserBLService/NormalUserBLService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/MarketQueryBLService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/MarketQueryBLService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/stockBLService/StockQueryBLService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/stockBLService/StockQueryBLService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/ResultMsg.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/ResultMsg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/MarketVO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/vo/MarketVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/StockVO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/vo/StockVO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/UserVO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/vo/UserVO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/pom.xml" afterPath="$PROJECT_DIR$/../njuse-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/NormalUserBLService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/NormalUserBLService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/MarketQueryBLService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/StockQueryBLService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/StockQueryBLService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/ResultMsg.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/StockResultMsg.java" afterPath="$PROJECT_DIR$/src/main/java/utility/resultMsg/StockResultMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vo/MarketVO.java" afterPath="$PROJECT_DIR$/src/main/java/vo/MarketVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vo/StockVO.java" afterPath="$PROJECT_DIR$/src/main/java/vo/StockVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vo/UserVO.java" afterPath="$PROJECT_DIR$/src/main/java/vo/UserVO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -152,6 +145,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +308,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -448,14 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vo/MarketVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/MarketResultMsg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -469,9 +459,9 @@
         <state relative-caret-position="424">
           <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#553#564#0" expanded="true" />
-            <element signature="e#755#764#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#553#564#0" expanded="false" />
+            <element signature="e#755#764#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,14 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vo/StockItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -532,6 +514,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vo/MarketVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vo/StockItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
