@@ -1,7 +1,7 @@
 package blService.stockBLService;
 
 import utility.keyForSearch.KeyForSearchStock;
-import utility.resultMsg.StockResultMsg;
+import utility.resultMsg.voResultMsg.StockResultMsg;
 
 
 public interface StockQueryBLService {
