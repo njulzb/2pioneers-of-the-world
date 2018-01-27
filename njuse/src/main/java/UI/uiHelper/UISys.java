@@ -2,10 +2,13 @@ package UI.uiHelper;
 
 public class UISys {
     public static int getWindowsH(){
-        return 700;
+        return 550;
     }
     public static int getWindowsW(){
-        return 900;
+        return 800;
+    }
+    public static String getImgPath(){
+        return "res/img/";
     }
 
 }
