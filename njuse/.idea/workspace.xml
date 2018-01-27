@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1401fade-295c-4fc4-b544-8e10daf1d748" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/MarketResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/StockResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/UserResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/MarketResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/StockResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/UserResultMsg.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/UserBLService/NormalUserBLService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/UserBLService/NormalUserBLService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/MarketQueryBLService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/MarketQueryBLService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/stockBLService/StockQueryBLService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/blService/stockBLService/StockQueryBLService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/ResultMsg.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/ResultMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/MarketVO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/vo/MarketVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/StockVO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/vo/StockVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/UserVO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/vo/UserVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/pom.xml" afterPath="$PROJECT_DIR$/../njuse-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/NormalUserBLService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/NormalUserBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/MarketQueryBLService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/StockQueryBLService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/StockQueryBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/ResultMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1401fade-295c-4fc4-b544-8e10daf1d748" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,7 +95,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,8 +133,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,30 +279,30 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28633407" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3557484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -360,7 +335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -369,7 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -377,24 +350,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="1" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -402,23 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,7 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -450,7 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,11 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#553#564#0" expanded="false" />
-            <element signature="e#755#764#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,7 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -478,9 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,7 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,9 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,7 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,7 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
