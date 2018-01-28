@@ -2,7 +2,8 @@ package RMI.impl;
 
 import bl.UserBL.UserBLController;
 import blService.UserBLService.NormalUserBLService;
-import utility.resultMsg.UserResultMsg;
+import resultMsg.UserResultMsg;
+
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;

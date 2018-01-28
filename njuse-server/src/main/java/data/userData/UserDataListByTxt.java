@@ -1,25 +1,19 @@
-package data.UserData;
+package data.userData;
 
-
-import dataService.userDataService.UserDataService;
 import po.user.UserPO;
 import utility.poResultMsg.UserPOResultMsg;
-
 
 import java.io.*;
 import java.util.ArrayList;
 
-public class UserDAO implements UserDataService {
-
-    private static UserDAO instance = new UserDAO();
-
-    public static UserDAO getInstance() {
+public class UserDataListByTxt {
+    private static UserDataListByTxt instance = new UserDataListByTxt();
+    public static UserDataListByTxt getInstance(){
         return instance;
     }
-
     ArrayList<String> userInfoList = new ArrayList<String>();
+    private UserDataListByTxt(){
 
-    private UserDAO() {
         String filePath = this.getClass().getClassLoader().getResource("user.txt").getPath();
         File file = new File(filePath);
         try {
@@ -35,10 +29,9 @@ public class UserDAO implements UserDataService {
             e.printStackTrace();
         }
 
+
     }
 
-
-    @Override
     public UserPOResultMsg searchUserByAccount(String account) {
 
         for (String e:this.userInfoList){
@@ -52,4 +45,7 @@ public class UserDAO implements UserDataService {
         }
         return new UserPOResultMsg(false,"there is no user with the account",null);
     }
+
+
+
 }

@@ -1,8 +1,8 @@
 package blService.stockBLService.stub;
 
 import blService.stockBLService.StockQueryBLService;
-import utility.keyForSearch.KeyForSearchStock;
-import utility.resultMsg.StockResultMsg;
+import keyForSearch.KeyForSearchStock;
+import resultMsg.StockResultMsg;
 import vo.StockItem;
 import vo.StockVO;
 
@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class StockQueryBLServiceStub implements StockQueryBLService {
     @Override
-    public StockResultMsg querySingleByKey(KeyForSearchStock key) {
+    public StockResultMsg queryStockByKey(KeyForSearchStock key) {
         StockItem item = new StockItem(new Date(),1,2,3,4,5,6);
         ArrayList<StockItem> stockItemArrayList = new ArrayList<StockItem>();
         stockItemArrayList.add(item);

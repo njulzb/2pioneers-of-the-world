@@ -1,7 +1,8 @@
 package utility.poResultMsg;
 
 import po.user.UserPO;
-import utility.resultMsg.ResultMsg;
+import resultMsg.ResultMsg;
+
 
 public class UserPOResultMsg extends ResultMsg {
     UserPO user ;

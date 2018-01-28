@@ -1,6 +1,6 @@
 package blService.UserBLService;
 
-import utility.resultMsg.UserResultMsg;
+import resultMsg.UserResultMsg;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

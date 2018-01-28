@@ -1,4 +1,4 @@
-package utility.keyForSearch;
+package keyForSearch;
 
 import java.util.Date;
 

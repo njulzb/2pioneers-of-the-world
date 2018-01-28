@@ -2,7 +2,7 @@ package blService.UserBLService;
 
 import org.junit.jupiter.api.Test;
 import rmi.ClientRunner;
-import utility.resultMsg.UserResultMsg;
+import resultMsg.UserResultMsg;
 import vo.UserVO;
 
 import java.net.MalformedURLException;

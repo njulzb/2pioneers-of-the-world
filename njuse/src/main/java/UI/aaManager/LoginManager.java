@@ -1,7 +1,7 @@
 package UI.aaManager;
 
 import UI.loginUI.LoginPane;
-import utility.resultMsg.UserResultMsg;
+import resultMsg.UserResultMsg;
 
 public class LoginManager {
 

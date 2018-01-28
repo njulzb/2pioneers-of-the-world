@@ -2,7 +2,8 @@ package bl.UserBL;
 
 import blService.UserBLService.NormalUserBLService;
 import org.junit.jupiter.api.Test;
-import utility.resultMsg.UserResultMsg;
+
+import resultMsg.UserResultMsg;
 import vo.UserVO;
 
 import java.rmi.RemoteException;

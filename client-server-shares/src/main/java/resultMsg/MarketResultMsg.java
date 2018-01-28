@@ -1,6 +1,5 @@
-package utility.resultMsg;
+package resultMsg;
 
-import utility.resultMsg.ResultMsg;
 import vo.MarketVO;
 
 public class MarketResultMsg extends ResultMsg {
