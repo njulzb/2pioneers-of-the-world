@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-
     <list default="true" id="1401fade-295c-4fc4-b544-8e10daf1d748" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/data/stockData/StockDAO.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/stockData/StockDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/data/stockData/StockDataListByTxt.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/stockData/StockDataListByTxt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/graphic/Kday_graphicPane.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/navigationUI/FunctionItemPane.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/navigationUI/NavigationPane.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java" />
+      <change beforePath="$PROJECT_DIR$/../client-server-shares/lzb.iml" afterPath="$PROJECT_DIR$/../client-server-shares/lzb.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/njuse-client.iml" afterPath="$PROJECT_DIR$/njuse-client.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/LoadingUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/LoadingUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyDoubleTextField.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyDoubleTextField.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyIntTextField.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyIntTextField.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.fxml" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoViewController.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoViewController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/TipUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/TipUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java" afterPath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/uiHelper/ImageHelper.java" afterPath="$PROJECT_DIR$/src/main/java/UI/uiHelper/ImageHelper.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/aaManager/LoginManager.class" afterPath="$PROJECT_DIR$/target/classes/UI/aaManager/LoginManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$2.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$3.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$4.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/QiPaoViewController.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/QiPaoViewController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginMainUI.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginMainUI.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$2.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/uiHelper/ImageHelper.class" afterPath="$PROJECT_DIR$/target/classes/UI/uiHelper/ImageHelper.class" />
     </list>
-
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../client-server-shares/target/" />
@@ -20,7 +56,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MainStage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/main/java/blService/UserBLService/NormalUserBLService.java" />
         <option value="$PROJECT_DIR$/src/main/java/vo/UserVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java" />
       </list>
     </option>
   </component>
@@ -91,10 +139,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="288" />
-    <option name="y" value="50" />
-    <option name="width" value="1400" />
-    <option name="height" value="980" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,52 +163,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
-
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-
-              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -172,8 +175,115 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="loginUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="mainUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="navigationUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="stockUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="uiHelper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,10 +300,6 @@
       <recent name="blService.UserBLService" />
       <recent name="rmi" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-      <recent name="groovy.util.GroovyTestCase" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -202,7 +308,12 @@
       <recent name="utility.resultMsg" />
       <recent name="blService.UserBLService" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eli.Eli-PC\Documents\2pioneers-of-the-world\njuse\src\main\java" />
       <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java" />
       <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java\vo" />
       <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java\utility\resultMsg" />
@@ -220,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NormalUserBLServiceTest.login">
+  <component name="RunManager" selected="Application.MainStage">
     <configuration name="ClientRunnerTest.getNormalUserBLService" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -245,6 +356,46 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="MainStage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="UI.mainUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="UI.mainUI.MainStage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="njuse-client" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration name="NormalUserBLServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -296,27 +447,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -348,12 +478,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="njuse" />
       <envs />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -389,21 +513,30 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Android JUnit.ClientRunnerTest.getNormalUserBLService" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest.login" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest.login" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MainStage" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest.login" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest" />
-        <item index="2" class="java.lang.String" itemvalue="Android JUnit.ClientRunnerTest.getNormalUserBLService" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainStage" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest.login" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NormalUserBLServiceTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -416,9 +549,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NormalUserBLServiceTest_login - 2018.01.28 at 13h 32m 30s.xml">
-      <configuration name="NormalUserBLServiceTest.login" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NormalUserBLServiceTest_login - 2018.01.28 at 13h 33m 22s.xml">
       <configuration name="NormalUserBLServiceTest.login" configurationId="JUnit" />
     </history-entry>
@@ -446,6 +576,9 @@
     <history-entry file="NormalUserBLServiceTest_login - 2018.01.28 at 15h 06m 16s.xml">
       <configuration name="NormalUserBLServiceTest.login" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NormalUserBLServiceTest_login - 2018.01.29 at 02h 22m 43s.xml">
+      <configuration name="NormalUserBLServiceTest.login" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -457,46 +590,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08592593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41256157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37744033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3623719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41256157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36279827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -572,33 +694,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/voResultMsg/UserResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/ClientRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vo/UserVO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blService/UserBLService/NormalUserBLService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/UserResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/blService/UserBLService/NormalUserBLServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rmi/ClientRunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rmi/ClientRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -681,7 +776,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/TipUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyIntTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyDoubleTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +899,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -737,12 +911,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lzb</last-edited>
+          <last-edited>njuse-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,19 +1,24 @@
 package UI.aaManager;
 
 import UI.loginUI.LoginPane;
-import resultMsg.UserResultMsg;
+import UI.mainUI.MainStage;
+import UI.navigationUI.NavigationPane;
 
 public class LoginManager {
+//    private NormalUserBLServiceStub controller = new NormalUserBLServiceStub();
+    private LoginPane loginPane;
 
-    private LoginPane loginPane ;
-    public LoginManager(LoginPane loginPane){
-        this.loginPane=loginPane;
+    public LoginManager(LoginPane loginPane) {
+        this.loginPane = loginPane;
     }
 
 
+    public void login(String username, String password) {
+//        controller.login(username,password);
 
-    public UserResultMsg login(String username, String password) {
-        return null;
+        MainStage.getInstance().changePane( new NavigationPane());
+
+
     }
 
     public void callRegister() {
