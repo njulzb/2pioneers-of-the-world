@@ -5,11 +5,11 @@ import utility.poResultMsg.StockPOResultMsg;
 
 public class StockDAO implements StockDataService {
 
-
+    private StockDataListByTxt stockDataListByTxt = StockDataListByTxt.getInstance();
 
     @Override
     public StockPOResultMsg searchStockByCode(String code) {
-        return null;
+        return this.stockDataListByTxt.searchStockByCode(code);
     }
 
     @Override

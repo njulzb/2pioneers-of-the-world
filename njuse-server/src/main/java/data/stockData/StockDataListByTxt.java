@@ -18,9 +18,9 @@ import java.util.ArrayList;
  *
  */
 public class StockDataListByTxt {
-    private StockDataListByTxt instance = new StockDataListByTxt();
+    private static StockDataListByTxt instance = new StockDataListByTxt();
 
-    public StockDataListByTxt getInstance() {
+    public static StockDataListByTxt getInstance() {
         return instance;
     }
 

@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adfc9f4d-17fb-4f92-a7f6-66586aab6669" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/data/userData/UserDataListByTxt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dataService/stockDataService/StockDataService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/po/stock/StockPO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utility/poResultMsg/StockPOResultMsg.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/keyForSearch/KeyForSearchStock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/MarketResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/ResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/StockResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/UserResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/bl/marketBL/MarketController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bl/marketBL/MarketController.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/keyForSearch/KeyForSearchStock.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/keyForSearch/KeyForSearchStock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/MarketResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/MarketResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/README.md" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/ResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/StockResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/StockResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/UserResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/UserResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/package-info.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/data/UserData/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/data/userData/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/data/UserData/UserDAOTest.java" afterPath="$PROJECT_DIR$/src/test/java/data/userData/UserDAOTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/NormalUserBLService.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/NormalUserBLService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/stub/NormalUserBLServiceStub.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/stub/NormalUserBLServiceStub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/MarketQueryBLService.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/MarketQueryBLService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/StockQueryBLService.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/StockQueryBLService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/stub/StockQueryBLServiceStub.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/stub/StockQueryBLServiceStub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/vo/StockItem.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/vo/StockItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/RMI/impl/NormalUserBLServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/RMI/impl/NormalUserBLServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bl/UserBL/UserBLController.class" afterPath="$PROJECT_DIR$/target/classes/bl/UserBL/UserBLController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bl/UserBL/UserList.class" afterPath="$PROJECT_DIR$/target/classes/bl/UserBL/UserList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bl/stockBL/StockBLController.class" afterPath="$PROJECT_DIR$/target/classes/bl/stockBL/StockBLController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/data/UserData/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/data/UserData/UserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utility/poResultMsg/UserPOResultMsg.class" afterPath="$PROJECT_DIR$/target/classes/utility/poResultMsg/UserPOResultMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/bl/UserBL/UserBLControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/bl/UserBL/UserBLControllerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/data/UserData/UserDAOTest.class" afterPath="$PROJECT_DIR$/target/test-classes/data/UserData/UserDAOTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse/target/classes/UI/aaManager/LoginManager.class" afterPath="$PROJECT_DIR$/../njuse/target/classes/UI/aaManager/LoginManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse/target/classes/UI/loginUI/LoginPane.class" afterPath="$PROJECT_DIR$/../njuse/target/classes/UI/loginUI/LoginPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse/target/test-classes/blService/UserBLService/NormalUserBLServiceTest.class" afterPath="$PROJECT_DIR$/../njuse/target/test-classes/blService/UserBLService/NormalUserBLServiceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/NormalUserBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/NormalUserBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/MarketQueryBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/StockQueryBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/StockQueryBLService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockItem.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RMI/impl/NormalUserBLServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/RMI/impl/NormalUserBLServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bl/UserBL/UserBLController.java" afterPath="$PROJECT_DIR$/src/main/java/bl/UserBL/UserBLController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bl/UserBL/UserList.java" afterPath="$PROJECT_DIR$/src/main/java/bl/UserBL/UserList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/bl/stockBL/StockBLController.java" afterPath="$PROJECT_DIR$/src/main/java/bl/stockBL/StockBLController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utility/poResultMsg/UserPOResultMsg.java" afterPath="$PROJECT_DIR$/src/main/java/utility/poResultMsg/UserPOResultMsg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/bl/UserBL/UserBLControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/bl/UserBL/UserBLControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../njuse/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse/src/main/java/UI/aaManager/LoginManager.java" afterPath="$PROJECT_DIR$/../njuse/src/main/java/UI/aaManager/LoginManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse/src/test/java/blService/UserBLService/NormalUserBLServiceTest.java" afterPath="$PROJECT_DIR$/../njuse/src/test/java/blService/UserBLService/NormalUserBLServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java" afterPath="$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java" afterPath="$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,31 +17,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StockDAO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StockDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockDataListByTxt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StockDataListByTxt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="649">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#619#627#0" expanded="true" />
-                <element signature="method#StockDataListByTxt#0;class#StockDataListByTxt#0" expanded="false" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#633#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +104,8 @@
         <option value="$PROJECT_DIR$/src/main/java/bl/UserBL/UserBLController.java" />
         <option value="$PROJECT_DIR$/src/main/java/bl/stockBL/StockBLController.java" />
         <option value="$PROJECT_DIR$/src/test/java/bl/UserBL/UserBLControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java" />
       </list>
     </option>
   </component>
@@ -947,28 +891,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="649">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#633#641#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/stockData/StockDataListByTxt.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/stockData/StockDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#619#627#0" expanded="true" />
-            <element signature="method#StockDataListByTxt#0;class#StockDataListByTxt#0" expanded="false" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
           </folding>
         </state>
       </provider>
