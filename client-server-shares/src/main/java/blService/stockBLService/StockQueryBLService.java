@@ -1,9 +1,9 @@
 package blService.stockBLService;
 
-import utility.keyForSearch.KeyForSearchStock;
-import utility.resultMsg.StockResultMsg;
+import keyForSearch.KeyForSearchStock;
+import resultMsg.StockResultMsg;
 
 
 public interface StockQueryBLService {
-    public StockResultMsg querySingleByKey(KeyForSearchStock key);
+    public StockResultMsg queryStockByKey(KeyForSearchStock key);
 }

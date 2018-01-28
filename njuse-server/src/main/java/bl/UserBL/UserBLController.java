@@ -1,7 +1,8 @@
 package bl.UserBL;
 
 import blService.UserBLService.NormalUserBLService;
-import utility.resultMsg.UserResultMsg;
+import resultMsg.UserResultMsg;
+
 
 public class UserBLController implements NormalUserBLService {
 

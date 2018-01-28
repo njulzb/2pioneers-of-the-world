@@ -1,12 +1,15 @@
 package bl.stockBL;
 
 import blService.stockBLService.StockQueryBLService;
-import utility.keyForSearch.KeyForSearchStock;
-import utility.resultMsg.StockResultMsg;
+import keyForSearch.KeyForSearchStock;
+import resultMsg.StockResultMsg;
+
 
 public class StockBLController implements StockQueryBLService {
+
+
     @Override
-    public StockResultMsg querySingleByKey(KeyForSearchStock key) {
+    public StockResultMsg queryStockByKey(KeyForSearchStock key) {
         return null;
     }
 }

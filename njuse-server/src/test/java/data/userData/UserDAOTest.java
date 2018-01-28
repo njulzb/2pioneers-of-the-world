@@ -1,4 +1,4 @@
-package data.UserData;
+package data.userData;
 
 import dataService.userDataService.UserDataService;
 import po.user.UserPO;

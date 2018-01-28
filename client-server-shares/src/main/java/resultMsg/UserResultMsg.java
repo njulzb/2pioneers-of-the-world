@@ -1,4 +1,4 @@
-package utility.resultMsg;
+package resultMsg;
 
 import vo.UserVO;
 

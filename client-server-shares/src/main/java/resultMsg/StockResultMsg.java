@@ -1,6 +1,5 @@
-package utility.resultMsg;
+package resultMsg;
 
-import utility.resultMsg.ResultMsg;
 import vo.StockVO;
 
 import java.util.ArrayList;

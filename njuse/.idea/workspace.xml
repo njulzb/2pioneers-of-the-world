@@ -2,125 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1401fade-295c-4fc4-b544-8e10daf1d748" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/client-server-shares.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/lzb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/NormalUserBLService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/RMI/ServerRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/RMI/impl/NormalUserBLServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/UserBL/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/poResultMsg/UserPOResultMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/test/java/bl/UserBL/UserBLControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/test/java/data/UserData/UserDAOTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/rmi/ClientRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/blService/UserBLService/NormalUserBLServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/rmi/ClientRunnerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/NormalUserBLService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/poResultMsg/UserPOResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/voResultMsg/StockResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/voResultMsg/UserResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/UserBLService/NormalUserBLService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/UserBLService/stub/NormalUserBLServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/MarketQueryBLService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/stockBLService/StockQueryBLService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/blService/stockBLService/stub/StockQueryBLServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/keyForSearch/KeyForSearchStock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/ResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/poResultMsg/UserPOResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/voResultMsg/MarketResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/voResultMsg/StockResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/resultMsg/voResultMsg/UserResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/MarketVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/StockItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/StockVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/vo/UserVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/blService/UserBLService/NormalUserBLService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/blService/marketBLService/MarketQueryBLService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/blService/stockBLService/StockQueryBLService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utility/keyForSearch/KeyForSearchStock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/MarketResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/vo/MarketVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/vo/StockItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/vo/StockVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/vo/UserVO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blService/UserBLService/NormalUserBLService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blService/UserBLService/stub/NormalUserBLServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blService/marketBLService/MarketQueryBLService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blService/stockBLService/StockQueryBLService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blService/stockBLService/stub/StockQueryBLServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/keyForSearch/KeyForSearchStock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/resultMsg/MarketResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/resultMsg/ResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/resultMsg/StockResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/utility/resultMsg/UserResultMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vo/MarketVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vo/StockItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vo/StockVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/vo/UserVO.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/MarketQueryBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/StockQueryBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/StockQueryBLService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/keyForSearch/KeyForSearchStock.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/keyForSearch/KeyForSearchStock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/README.md" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/ResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/package-info.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/resultMsg/voResultMsg/MarketResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/MarketResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/MarketVO.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/MarketVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/StockItem.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/StockVO.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/vo/UserVO.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/UserVO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/StockResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/StockResultMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utility/resultMsg/UserResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/UserResultMsg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/stockData/StockDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/stockData/StockDataListByTxt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/userData/UserDataListByTxt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/dataService/stockDataService/StockDataService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/po/stock/StockPO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/poResultMsg/StockPOResultMsg.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/keyForSearch/KeyForSearchStock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/MarketResultMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/ResultMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/StockResultMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/utility/resultMsg/UserResultMsg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/marketBL/MarketController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/bl/marketBL/MarketController.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/keyForSearch/KeyForSearchStock.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/keyForSearch/KeyForSearchStock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/MarketResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/MarketResultMsg.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/README.md" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/ResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/ResultMsg.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/StockResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/StockResultMsg.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/UserResultMsg.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/UserResultMsg.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/utility/resultMsg/package-info.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/package-info.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/data/UserData/UserDAO.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/userData/UserDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../njuse-server/src/test/java/data/UserData/UserDAOTest.java" afterPath="$PROJECT_DIR$/../njuse-server/src/test/java/data/userData/UserDAOTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/NormalUserBLService.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/NormalUserBLService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/stub/NormalUserBLServiceStub.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/UserBLService/stub/NormalUserBLServiceStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/MarketQueryBLService.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/MarketQueryBLService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/marketBLService/stub/MarketQueryBLServiceStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/StockQueryBLService.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/StockQueryBLService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/stub/StockQueryBLServiceStub.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/blService/stockBLService/stub/StockQueryBLServiceStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/target/classes/vo/StockItem.class" afterPath="$PROJECT_DIR$/../client-server-shares/target/classes/vo/StockItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/RMI/impl/NormalUserBLServiceImpl.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/RMI/impl/NormalUserBLServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/bl/UserBL/UserBLController.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/bl/UserBL/UserBLController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/bl/UserBL/UserList.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/bl/UserBL/UserList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/bl/marketBL/MarketController.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/bl/marketBL/MarketController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/bl/stockBL/StockBLController.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/bl/stockBL/StockBLController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/data/UserData/UserDAO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/data/UserData/UserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/dataService/userDataService/UserDataService.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/dataService/userDataService/UserDataService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/po/user/UserPO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/po/user/UserPO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/misc.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/modules.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/utility/poResultMsg/UserPOResultMsg.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/utility/poResultMsg/UserPOResultMsg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/test-classes/bl/UserBL/UserBLControllerTest.class" afterPath="$PROJECT_DIR$/../njuse-server/target/test-classes/bl/UserBL/UserBLControllerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/test-classes/data/UserData/UserDAOTest.class" afterPath="$PROJECT_DIR$/../njuse-server/target/test-classes/data/UserData/UserDAOTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UI/aaManager/LoginManager.class" afterPath="$PROJECT_DIR$/target/classes/UI/aaManager/LoginManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/blService/UserBLService/NormalUserBLServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/blService/UserBLService/NormalUserBLServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/NormalUserBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/NormalUserBLService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/MarketQueryBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/StockQueryBLService.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/StockQueryBLService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockItem.java" afterPath="$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/njuse-server.iml" afterPath="$PROJECT_DIR$/../njuse-server/njuse-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/pom.xml" afterPath="$PROJECT_DIR$/../njuse-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/RMI/impl/NormalUserBLServiceImpl.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/RMI/impl/NormalUserBLServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/UserBL/UserBLController.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/UserBL/UserBLController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/UserBL/UserList.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/UserBL/UserList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/marketBL/MarketController.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/marketBL/MarketController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/stockBL/StockBLController.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/bl/stockBL/StockBLController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/data/UserData/UserDAO.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/data/UserData/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/dataService/userDataService/UserDataService.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/dataService/userDataService/UserDataService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/po/user/UserPO.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/po/user/UserPO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/resources/user.txt" afterPath="$PROJECT_DIR$/../njuse-server/src/main/resources/user.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/target/classes/user.txt" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/user.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit5_api_5_0_0_ALPHA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit5_api_5_0_0_ALPHA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_commons_5_0_0_ALPHA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_junit_commons_5_0_0_ALPHA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_ALPHA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_ALPHA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/poResultMsg/UserPOResultMsg.java" afterPath="$PROJECT_DIR$/../njuse-server/src/main/java/utility/poResultMsg/UserPOResultMsg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../njuse-server/src/test/java/bl/UserBL/UserBLControllerTest.java" afterPath="$PROJECT_DIR$/../njuse-server/src/test/java/bl/UserBL/UserBLControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/njuse-client.iml" afterPath="$PROJECT_DIR$/njuse-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/blService/UserBLService/NormalUserBLServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/blService/UserBLService/NormalUserBLServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,7 +71,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -229,7 +167,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -241,59 +178,40 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
               <item name="njuse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
@@ -319,14 +237,17 @@
       <recent name="blService.UserBLService" />
       <recent name="rmi" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="vo" />
       <recent name="utility.resultMsg" />
       <recent name="blService.UserBLService" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-      <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java" />
@@ -584,10 +505,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -595,10 +517,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41256157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36279827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36984816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,7 +533,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -625,17 +547,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.81527096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41256157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3557484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36984816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -691,7 +613,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -754,7 +676,7 @@
         <state relative-caret-position="990">
           <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,7 +698,7 @@
         <state relative-caret-position="258">
           <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>

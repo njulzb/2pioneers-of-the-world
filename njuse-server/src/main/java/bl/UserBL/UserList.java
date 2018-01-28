@@ -1,10 +1,11 @@
 package bl.UserBL;
 
-import data.UserData.UserDAO;
+import data.userData.UserDAO;
 import dataService.userDataService.UserDataService;
 import po.user.UserPO;
+import resultMsg.UserResultMsg;
 import utility.poResultMsg.UserPOResultMsg;
-import utility.resultMsg.UserResultMsg;
+
 
 public class UserList {
     UserDataService userDataService = UserDAO.getInstance();
