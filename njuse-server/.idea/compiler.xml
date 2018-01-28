@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lzb" />
+        <module name="njuse" />
         <module name="njuse-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lzb" target="1.9" />
+      <module name="njuse" target="1.9" />
       <module name="njuse-server" target="1.9" />
     </bytecodeTargetLevel>
   </component>

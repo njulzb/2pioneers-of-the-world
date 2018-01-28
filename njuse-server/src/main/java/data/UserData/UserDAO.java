@@ -3,16 +3,23 @@ package data.UserData;
 
 import dataService.userDataService.UserDataService;
 import po.user.UserPO;
-import utility.resultMsg.poResultMsg.UserPOResultMsg;
+import utility.poResultMsg.UserPOResultMsg;
+
 
 import java.io.*;
 import java.util.ArrayList;
 
 public class UserDAO implements UserDataService {
 
+    private static UserDAO instance = new UserDAO();
+
+    public static UserDAO getInstance() {
+        return instance;
+    }
+
     ArrayList<String> userInfoList = new ArrayList<String>();
 
-    public UserDAO() {
+    private UserDAO() {
         String filePath = this.getClass().getClassLoader().getResource("user.txt").getPath();
         File file = new File(filePath);
         try {
