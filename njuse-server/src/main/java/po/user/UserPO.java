@@ -34,4 +34,19 @@ public class UserPO implements Serializable{
     public void setPassword(String password) {
         this.password = password;
     }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        UserPO userPO = (UserPO) o;
+
+        if (account != null ? !account.equals(userPO.account) : userPO.account != null) return false;
+        if (name != null ? !name.equals(userPO.name) : userPO.name != null) return false;
+        return password != null ? password.equals(userPO.password) : userPO.password == null;
+    }
+
+
 }
