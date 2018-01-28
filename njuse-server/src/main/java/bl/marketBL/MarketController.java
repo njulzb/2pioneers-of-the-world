@@ -1,7 +1,7 @@
 package bl.marketBL;
 
 import blService.marketBLService.MarketQueryBLService;
-import utility.resultMsg.voResultMsg.MarketResultMsg;
+import utility.resultMsg.MarketResultMsg;
 
 import java.util.Date;
 

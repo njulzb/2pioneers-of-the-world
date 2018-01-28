@@ -2,14 +2,30 @@ package bl.UserBL;
 
 import data.UserData.UserDAO;
 import dataService.userDataService.UserDataService;
-import utility.resultMsg.voResultMsg.UserResultMsg;
+import po.user.UserPO;
+import utility.poResultMsg.UserPOResultMsg;
+import utility.resultMsg.UserResultMsg;
 
 public class UserList {
+    UserDataService userDataService = UserDAO.getInstance();
+    public UserResultMsg login(String account, String password){
+        UserPOResultMsg userPOResultMsg = this.userDataService.searchUserByAccount(account);
+        UserPO userPO = userPOResultMsg.getUser();
 
-    UserDataService userDataManager = new UserDAO();
+        //对应账户名不存在
+        if (userPOResultMsg.isSuccessful()==false || userPO.getAccount().equals(account)==false){
+            return new UserResultMsg(false,"there is no user with that account",null);
+        }
 
-    public UserResultMsg login(String username,String password){
+        //账号密码正确
+        if (userPO.getPassword().equals(password)){
+            return new UserResultMsg(true,"success",new User(userPO).toVO());
+        }
 
-        return null;
+
+        //密码不正确
+        return new UserResultMsg(false,"password or account error" , null);
+
     }
+
 }
