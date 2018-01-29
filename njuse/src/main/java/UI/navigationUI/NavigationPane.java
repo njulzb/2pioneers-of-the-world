@@ -29,7 +29,7 @@ public class NavigationPane extends Pane {
             @Override
             public void handle(MouseEvent e) {
                 rightEnter();
-              }
+            }
         });
         this.setOnMouseExited(new EventHandler<MouseEvent>() {
 
@@ -52,6 +52,7 @@ public class NavigationPane extends Pane {
 
             @Override
             public void handle(MouseEvent e) {
+                manager.callGuide();
             }
         });
         me.getChildren().add(item_1);
@@ -74,6 +75,7 @@ public class NavigationPane extends Pane {
 
             @Override
             public void handle(MouseEvent e) {
+                manager.callStockMessage();
             }
         });
         me.getChildren().add(item_3);
@@ -95,6 +97,7 @@ public class NavigationPane extends Pane {
         downLine.setStartX(0);
         downLine.setLayoutY(n * step);
         downLine.setFill(Color.WHITE);
+        downLine.setStyle("-fx-border-color:  #545454");
         downLine.setEndX(NavigationPane.NavigationWidth);
         downLine.setEndY(150);
         n++;
@@ -133,7 +136,7 @@ public class NavigationPane extends Pane {
 
                 while (isRightEntering && me.getLayoutX() < -3) {
                     me.setLayoutX(me.getLayoutX() + 3);
-                    Thread.sleep(30);
+                    Thread.sleep(10);
                 }
                 isRightEntering = false;
                 return "";

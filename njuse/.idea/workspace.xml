@@ -2,48 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1401fade-295c-4fc4-b544-8e10daf1d748" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/graphic/Kday_graphicPane.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/navigationUI/FunctionItemPane.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/navigationUI/NavigationPane.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java" />
-      <change beforePath="$PROJECT_DIR$/../client-server-shares/lzb.iml" afterPath="$PROJECT_DIR$/../client-server-shares/lzb.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/WelcomeManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_item.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton_img.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/welcomeUI/FunctionSqua.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UI/welcomeUI/WelcomeMainUI.java" />
+      <change beforePath="$PROJECT_DIR$/../njuse-server/.idea/misc.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../njuse-server/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../njuse-server/target/classes/data/stockData/StockDAO.class" afterPath="$PROJECT_DIR$/../njuse-server/target/classes/data/stockData/StockDAO.class" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/njuse-client.iml" afterPath="$PROJECT_DIR$/njuse-client.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/LoadingUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/LoadingUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java" afterPath="$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/graphic/Kday_graphicPane.java" afterPath="$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_graphicPane.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyDoubleTextField.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyDoubleTextField.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyIntTextField.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyIntTextField.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.fxml" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoViewController.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/QiPaoViewController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/littleUI/TipUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/littleUI/TipUI.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java" afterPath="$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/uiHelper/ImageHelper.java" afterPath="$PROJECT_DIR$/src/main/java/UI/uiHelper/ImageHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java" afterPath="$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/navigationUI/NavigationPane.java" afterPath="$PROJECT_DIR$/src/main/java/UI/navigationUI/NavigationPane.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java" afterPath="$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/uiHelper/UISys.java" afterPath="$PROJECT_DIR$/src/main/java/UI/uiHelper/UISys.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/UI/aaManager/LoginManager.class" afterPath="$PROJECT_DIR$/target/classes/UI/aaManager/LoginManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LengthLimitTextField.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/LoadingUI.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/aaManager/NavigationManager.class" afterPath="$PROJECT_DIR$/target/classes/UI/aaManager/NavigationManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/graphic/Kday_graphicPane.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$2.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$2.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$3.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$3.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$4.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton$4.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/MyButton.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyDoubleTextField.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/OnlyIntTextField.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/littleUI/QiPaoViewController.class" afterPath="$PROJECT_DIR$/target/classes/UI/littleUI/QiPaoViewController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginMainUI.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginMainUI.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$1.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$2.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane.class" afterPath="$PROJECT_DIR$/target/classes/UI/loginUI/LoginPane.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UI/uiHelper/ImageHelper.class" afterPath="$PROJECT_DIR$/target/classes/UI/uiHelper/ImageHelper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/mainUI/MainStage.class" afterPath="$PROJECT_DIR$/target/classes/UI/mainUI/MainStage.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$3.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$4.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$5.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$6.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$7.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$8.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane.class" afterPath="$PROJECT_DIR$/target/classes/UI/navigationUI/NavigationPane.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/stockUI/StockMessageUI.class" afterPath="$PROJECT_DIR$/target/classes/UI/stockUI/StockMessageUI.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,13 +48,82 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainStage.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainStage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="257">
+              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kday_graphicPane.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_graphicPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#462#473#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UISys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/uiHelper/UISys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kday_item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginMainUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-147">
+              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockMessageUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeMainUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/welcomeUI/WelcomeMainUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +135,8 @@
       <list>
         <option value="Interface" />
         <option value="package-info" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -119,6 +180,20 @@
         <option value="$PROJECT_DIR$/src/main/java/vo/UserVO.java" />
         <option value="$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/littleUI/LengthLimitTextField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/graphic/Kday_graphicPane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/aaManager/WelcomeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/welcomeUI/WelcomeMainUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton_img.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/welcomeUI/FunctionSqua.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/navigationUI/NavigationPane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/uiHelper/UISys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_graphicPane.java" />
       </list>
     </option>
   </component>
@@ -162,19 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="njuse" type="58d84e3e:PackageViewProjectNode" />
-              <item name="njuse-client" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +264,63 @@
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blService" type="462c0819:PsiDirectoryNode" />
+              <item name="stockBLService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blService" type="462c0819:PsiDirectoryNode" />
+              <item name="stockBLService" type="462c0819:PsiDirectoryNode" />
+              <item name="stub" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="keyForSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resultMsg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-server-shares" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
               <item name="njuse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njuse" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
@@ -221,59 +339,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="loginUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="mainUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="navigationUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="stockUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="njuse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="uiHelper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="njuse" type="b2602c69:ProjectViewProjectNode" />
@@ -283,6 +348,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="njuse" type="58d84e3e:PackageViewProjectNode" />
+              <item name="njuse-client" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -303,7 +381,14 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eli.Eli-PC\Documents\2pioneers-of-the-world\njuse\src\main\java" />
+      <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java" />
+      <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java\vo" />
+      <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java\utility\resultMsg" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UI.littleUI" />
       <recent name="vo" />
       <recent name="utility.resultMsg" />
       <recent name="blService.UserBLService" />
@@ -311,12 +396,6 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="groovy.util.GroovyTestCase" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eli.Eli-PC\Documents\2pioneers-of-the-world\njuse\src\main\java" />
-      <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java" />
-      <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java\vo" />
-      <recent name="C:\Users\lzb\Desktop\colleage\2pioneers-of-the-world\njuse\src\main\java\utility\resultMsg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -591,63 +670,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08592593" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3623719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07851852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25475842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41256157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29679802" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36984816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -680,7 +730,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/UserResultMsg.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -694,43 +752,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/ClientRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blService/marketBLService/stub.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/keyForSearch/KeyForSearchStock.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blService/marketBLService/stub/MarketQueryBLServiceStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/MarketResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blService/stockBLService/StockQueryBLService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/StockResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/rmi/ClientRunnerTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/resultMsg/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/resultMsg/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/resultMsg/voResultMsg/MarketResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/resultMsg/voResultMsg/StockResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/resultMsg/poResultMsg/UserPOResultMsg.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.0-M1/junit-platform-commons-1.1.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -754,13 +775,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/blService/marketBLService/MarketQueryBLService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/voResultMsg/UserResultMsg.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/blService/UserBLService/stub/NormalUserBLServiceStub.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/ClientRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vo/UserVO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utility/resultMsg/ResultMsg.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/blService/UserBLService/NormalUserBLService.java" />
@@ -795,47 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/OnlyDoubleTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -851,11 +825,217 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/ClientRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/UserResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/navigationUI/FunctionItemPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/aaManager/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/aaManager/WelcomeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#167#168#0" expanded="false" />
+            <element signature="e#193#194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1274#1275#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/welcomeUI/FunctionSqua.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/littleUI/MyButton_img.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="33" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/keyForSearch/KeyForSearchStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/resultMsg/StockResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/StockQueryBLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/vo/StockItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../client-server-shares/src/main/java/blService/stockBLService/stub/StockQueryBLServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/aaManager/NavigationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="21" column="79" lean-forward="false" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/navigationUI/NavigationPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding>
+            <element signature="e#1588#1589#0" expanded="false" />
+            <element signature="e#1639#1640#0" expanded="false" />
+            <element signature="e#2255#2256#0" expanded="false" />
+            <element signature="e#2313#2314#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/welcomeUI/WelcomeMainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/stockUI/StockMessageUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/mainUI/MainStage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="257">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/loginUI/LoginMainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/uiHelper/UISys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/graphic/kDay/Kday_graphicPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#473#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

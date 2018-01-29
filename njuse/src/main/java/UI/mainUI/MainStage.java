@@ -1,10 +1,15 @@
 package UI.mainUI;
 
+import UI.littleUI.MyButton;
+import UI.littleUI.MyButton_img;
 import UI.loginUI.LoginMainUI;
 import UI.navigationUI.NavigationPane;
+import UI.uiHelper.ImageHelper;
 import UI.uiHelper.UISys;
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -37,7 +42,7 @@ public class MainStage extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        me =this;
+        me = this;
         root.setStyle("-fx-border-color:  #545454");
         Scene scene = new Scene(root, UISys.getWindowsW(), UISys.getWindowsH());
         this.thisStage = primaryStage;
@@ -47,9 +52,18 @@ public class MainStage extends Application {
 
         primaryStage.setResizable(false);
         primaryStage.show();
-
+        makeUI();
         changePane(new LoginMainUI().root);
 
+    }
+
+    public void makeUI() {
+
+        MyButton_img label_close = new MyButton_img("littleIcon\\close.png");
+        label_close.setLayoutX(750);
+        label_close.setLayoutY(10);
+        root.getChildren().add(label_close);
+        label_close.toFront();
     }
 
 
@@ -63,12 +77,12 @@ public class MainStage extends Application {
 
     }
 
-    public void changePaneWithNavigation( Pane newPane) {
+    public void changePaneWithNavigation(Pane newPane) {
         if (otherPane.size() != 0) {
             root.getChildren().removeAll(otherPane);
         }
-        NavigationPane naPane =new NavigationPane();
-        naPane.setLayoutX(35);
+        NavigationPane naPane = new NavigationPane();
+        naPane.setLayoutX(-80);
 
         otherPane.add(newPane);
         otherPane.add(naPane);

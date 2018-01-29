@@ -2,7 +2,7 @@ package UI.uiHelper;
 
 public class UISys {
     public static int getWindowsH(){
-        return 550;
+        return 600;
     }
     public static int getWindowsW(){
         return 800;
