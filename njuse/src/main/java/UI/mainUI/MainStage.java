@@ -28,6 +28,10 @@ public class MainStage extends Application {
         return me;
     }
 
+    public Stage getThisStage() {
+        return thisStage;
+    }
+
     public MainStage() {
 
     }

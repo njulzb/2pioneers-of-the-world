@@ -1,5 +1,6 @@
 package UI.aaManager;
 
+import UI.littleUI.QiPaoUI;
 import UI.loginUI.LoginPane;
 import UI.mainUI.MainStage;
 import UI.navigationUI.NavigationPane;
@@ -22,16 +23,15 @@ public class LoginManager {
 
     public void login(String username, String password) {
         try {
-            ClientRunner.getInstance().getNormalUserBLService().login(username,password);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        } catch (NotBoundException e) {
-            e.printStackTrace();
-        } catch (MalformedURLException e) {
+
+//            QiPaoUI.showTip(loginPane, "aa");
+            ClientRunner.getInstance().getNormalUserBLService().login(username, password);
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
         MainStage.getInstance().changePaneWithNavigation(new WelcomeMainUI());
-
+//
 
 
     }

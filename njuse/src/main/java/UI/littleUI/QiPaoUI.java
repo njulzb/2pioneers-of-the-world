@@ -107,7 +107,7 @@ public class QiPaoUI extends Application {
 //		stage.setX(primaryScreenBounds.getWidth() / 2 - width);
 //		stage.setY(primaryScreenBounds.getHeight() / 2 - height);
 //		stage.show();
-
+        mainPane.toFront();
         Task t = new Task() {
             @Override
             protected Object call() throws Exception {
