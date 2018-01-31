@@ -6,6 +6,7 @@ import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 
 public class LoginPane extends Pane {
@@ -34,7 +35,7 @@ public class LoginPane extends Pane {
         me.getChildren().add(label_username);
 
 
-        PasswordField  unField = new PasswordField();
+        TextField unField = new TextField();
         unField.setPrefSize(150, 20);
         unField.setLayoutX(40);
         unField.setLayoutY(80);
