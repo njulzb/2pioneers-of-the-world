@@ -1,9 +1,9 @@
 package UI.littleUI;
 
-import java.io.IOException;
-
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
+
+import java.io.IOException;
 
 public class QiPaoView {
 	public Pane InfoPane(String message) throws IOException{
