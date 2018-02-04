@@ -1,7 +1,9 @@
 package UI.welcomeUI;
 
 import UI.aaManager.WelcomeManager;
+import javafx.event.EventHandler;
 import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.Pane;
@@ -46,11 +48,25 @@ public class WelcomeMainUI extends Pane {
         FunctionSqua func2 = new FunctionSqua("股票详情", "function\\stockMessage.png");
         func2.setLayoutX(300);
         func2.setLayoutY(200);
+        func2.setOnMousePressed(new EventHandler<MouseEvent>() {
+
+            @Override
+            public void handle(MouseEvent e) {
+                manage.callFunction_stockMessage();
+            }
+        });
         me.getChildren().add(func2);
 
         FunctionSqua func3 = new FunctionSqua("市场温度计", "function\\marketTem.png");
         func3.setLayoutX(500);
         func3.setLayoutY(200);
+        func3 .setOnMousePressed(new EventHandler<MouseEvent>() {
+
+            @Override
+            public void handle(MouseEvent e) {
+                manage.callFunction_marketThermometer();
+            }
+        });
         me.getChildren().add(func3);
     }
 

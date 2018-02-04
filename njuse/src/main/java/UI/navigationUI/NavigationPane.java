@@ -87,6 +87,7 @@ public class NavigationPane extends Pane {
 
             @Override
             public void handle(MouseEvent e) {
+                manager.callMarketTem();
             }
         });
         me.getChildren().add(item_4);
