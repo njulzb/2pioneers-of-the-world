@@ -12,19 +12,21 @@ import java.util.Date;
 public class Kday_item extends Pane {
 
     private double width;
+    private double height;
     private Kday_item me = this;
     private double scale = 1;//比例尺（1像素 = scale元)
     private double startPrice, endPrice, maxPrice, minPrice;
     private Date thisDate;
 
-    public Kday_item(double width, double scale, double startPrice, double endPrice, double maxPrice, double minPrice,Date thisDate) {
-        this.width = width;
+    public Kday_item(double width,double height, double scale,StockItem itemVO){
+         this.width = width;
+        this.height=height;
         this.scale = scale;
-        this.startPrice = startPrice;
-        this.endPrice = endPrice;
-        this.maxPrice = maxPrice;
-        this.minPrice = minPrice;
-        this.thisDate=thisDate;
+        this.startPrice = itemVO.getOpen();
+        this.endPrice = itemVO.getClose();
+        this.maxPrice = itemVO.getHigh();
+        this.minPrice = itemVO.getLow();
+        this.thisDate=itemVO.getDate();
 
         make();
     }
@@ -41,7 +43,7 @@ public class Kday_item extends Pane {
         Pane line = new Pane();
         line.setPrefSize(1, (maxPrice - minPrice) / scale);
         line.setLayoutX(width / 2);
-        line.setLayoutY(maxPrice / scale);
+        line.setLayoutY(minPrice / scale);
         line.toBack();
         line.setBackground(new Background(new BackgroundFill(color, null, null)));
         me.getChildren().add(line);
@@ -49,7 +51,7 @@ public class Kday_item extends Pane {
         Pane big = new Pane();
         big.setPrefSize(width, Math.abs(startPrice - endPrice) / scale);
         big.setLayoutX(0);
-        big.setLayoutY(startPrice / scale);
+        big.setLayoutY(endPrice / scale);
         big.setStyle("-fx-border-color:  #000000");
         big.setBackground(new Background(new BackgroundFill(color, null, null)));
         big.toFront();

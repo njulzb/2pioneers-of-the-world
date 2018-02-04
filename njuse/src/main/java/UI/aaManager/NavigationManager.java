@@ -1,7 +1,9 @@
 package UI.aaManager;
 
 import UI.mainUI.MainStage;
+import UI.marketTemUI.MarketTemMainUI;
 import UI.stockUI.StockMessageUI;
+import UI.stockUI.StockSelectUI;
 import UI.welcomeUI.WelcomeMainUI;
 
 public class NavigationManager {
@@ -14,12 +16,12 @@ public class NavigationManager {
     }
 
     public void callMarketTem() {
-
+        MainStage.getInstance().changePaneWithNavigation(new MarketTemMainUI(null));
     }
 
     public void callStockMessage() {
 
-        MainStage.getInstance().changePaneWithNavigation(new StockMessageUI());
+        MainStage.getInstance().changePaneWithNavigation(new StockSelectUI());
     }
 
 }
