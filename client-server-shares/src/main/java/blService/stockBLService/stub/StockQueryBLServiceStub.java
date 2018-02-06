@@ -21,4 +21,16 @@ public class StockQueryBLServiceStub implements StockQueryBLService {
         StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVOArrayList);
         return resultMsg;
     }
+
+    @Override
+    public StockResultMsg queryStockByCodeAndDate(String code, Date begin, Date end) {
+        StockItem item = new StockItem(new Date(),1,2,3,4,5,6);
+        ArrayList<StockItem> stockItemArrayList = new ArrayList<StockItem>();
+        stockItemArrayList.add(item);
+        StockVO stockVO = new StockVO("1","stub stock","stub market",stockItemArrayList);
+        ArrayList<StockVO> stockVOArrayList = new ArrayList<StockVO>();
+        stockVOArrayList.add(stockVO);
+        StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVOArrayList);
+        return resultMsg;
+    }
 }
