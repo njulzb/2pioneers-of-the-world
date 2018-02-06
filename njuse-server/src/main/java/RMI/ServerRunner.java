@@ -1,7 +1,9 @@
 package RMI;
 
 import RMI.impl.NormalUserBLServiceImpl;
+import RMI.impl.StockQueryBLServiceImpl;
 import blService.UserBLService.NormalUserBLService;
+import blService.stockBLService.StockQueryBLService;
 
 
 import java.net.MalformedURLException;
@@ -31,6 +33,9 @@ public class ServerRunner {
             //user
             NormalUserBLService normalUserBLService = new NormalUserBLServiceImpl();
             Naming.rebind(this.name.replaceAll("service","NormalUserBLService") , normalUserBLService);
+//            stock query bl service
+            StockQueryBLService stockQueryBLService = new StockQueryBLServiceImpl();
+            Naming.rebind(this.name.replaceAll("service","StockQueryBLService"),stockQueryBLService);
 
         } catch (RemoteException e) {
             e.printStackTrace();

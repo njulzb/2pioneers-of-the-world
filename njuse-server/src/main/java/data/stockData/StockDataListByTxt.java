@@ -1,10 +1,15 @@
 package data.stockData;
 
 
+
+import po.stock.StockPO;
 import utility.poResultMsg.StockPOResultMsg;
+import vo.StockItem;
 
 import java.io.*;
+
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * 数据文件第一行为标题行，随后的数据每行代表某只股票一天的涨跌数据，
@@ -13,8 +18,8 @@ import java.util.ArrayList;
  * 成交量  复权后的收盘指数  股票代码  股票名称  市场名称。
  * 各变量之间 用 tab 分隔  数据文件使用 UTF8 编码，换行符为 CR 
  *
- *  serial  date open high low close
- *  volume adj close code name market
+ *  0.serial  1.date 2.open 3.high 4.low 5.close
+ *  6.volume 7.adj_close 8.code 9.name 10.market
  *
  */
 public class StockDataListByTxt {
@@ -45,19 +50,118 @@ public class StockDataListByTxt {
     }
 
     public StockPOResultMsg searchStockByCode(String code){
-        //TODO
-        for (String e:this.stockInfoList){
-            String[] array = e.split("\t");
-            if (code.equals(array[8])){
+        StockPOResultMsg resultMsg = null;
+        StockPO stockPO = null;
+        String name =null, market =null;
+        ArrayList<StockItem> itemArrayList = new ArrayList<StockItem>();
 
+        //遍历整张表
+        for (String eLine:this.stockInfoList){
+            String[] array = eLine.split("\t");
+
+            if (code.equals(array[8])){//code 相等
+                if (stockPO==null){//检索到的第一条记录
+                    name = array[9];
+                    market = array[10];
+                    stockPO = new StockPO(code,name,market,itemArrayList);
+                }
+
+//                拼装item
+                StockItem stockItem = new StockItem(eLine);
+                itemArrayList.add(stockItem);//添加item
             }
 
+        }//遍历结束
+
+        if (stockPO==null){//搜索不存在
+            resultMsg = new StockPOResultMsg(false,"there is no stock with that code",null);
+        }else{//搜索完成
+            resultMsg = new StockPOResultMsg(true,"successful",stockPO);
         }
 
-
-        return null;
+        return resultMsg;
     }
 
+    public StockPOResultMsg searchStockByName(String name){
+        StockPOResultMsg resultMsg = null;
+        StockPO stockPO = null;
+        String code =null, market =null;
+        ArrayList<StockItem> itemArrayList = new ArrayList<StockItem>();
 
+        //遍历整张表
+        for (String eLine:this.stockInfoList){
+            String[] array = eLine.split("\t");
 
+            if (name.equals(array[9])){//name 相等
+                if (stockPO==null){//检索到的第一条记录
+                    code = array[8];
+                    market = array[10];
+                    stockPO = new StockPO(code,name,market,itemArrayList);
+                }
+
+//                拼装item
+                StockItem stockItem = new StockItem(eLine);
+                itemArrayList.add(stockItem);//添加item
+            }
+
+        }//遍历结束
+
+        if (stockPO==null){//搜索不存在
+            resultMsg = new StockPOResultMsg(false,"there is no stock with that code",null);
+        }else{//搜索完成
+            resultMsg = new StockPOResultMsg(true,"successful",stockPO);
+        }
+
+        return resultMsg;
+    }
+
+    public StockPOResultMsg searchStockByMarket(String market){
+        StockPOResultMsg resultMsg = null;
+        StockPO stockPO = null;
+        String code =null, name =null;
+        ArrayList<StockItem> itemArrayList = new ArrayList<StockItem>();
+
+        //遍历整张表
+        for (String eLine:this.stockInfoList){
+            String[] array = eLine.split("\t");
+
+            if (market.equals(array[10])){//market 相等
+                if (stockPO==null){//检索到的第一条记录
+                    code = array[8];
+                    name = array[9];
+                    stockPO = new StockPO(code,name,market,itemArrayList);
+                }
+
+//                拼装item
+                StockItem stockItem = new StockItem(eLine);
+                itemArrayList.add(stockItem);//添加item
+            }
+
+        }//遍历结束
+
+        if (stockPO==null){//搜索不存在
+            resultMsg = new StockPOResultMsg(false,"there is no stock with that market",null);
+        }else{//搜索完成
+            resultMsg = new StockPOResultMsg(true,"successful",stockPO);
+        }
+
+        return resultMsg;
+    }
+
+    public StockPOResultMsg searchStockByCodeAndDate(String code , Date begin ,Date end){
+        StockPOResultMsg poResultMsg = this.searchStockByCode(code);
+        if (poResultMsg.isSuccessful()==false){
+            return poResultMsg;
+        }
+//        get rid of the items not between the begin and end
+        ArrayList<StockItem> itemArrayList = poResultMsg.getStockPO().getStockItemArrayList();
+        ArrayList<StockItem> newList = new ArrayList<>();
+        for (StockItem eItem : itemArrayList){
+            if (eItem.getDate().before(end) && eItem.getDate().after(begin)){
+                newList.add(eItem);
+            }
+        }
+        poResultMsg.getStockPO().setStockItemArrayList(newList);
+        return poResultMsg;
+    }
 }

@@ -1,15 +1,21 @@
 package utility.poResultMsg;
 
+
 import po.stock.StockPO;
 import resultMsg.ResultMsg;
+import resultMsg.StockResultMsg;
+
 
 public class StockPOResultMsg extends ResultMsg {
     StockPO stockPO;
+
+
 
     public StockPOResultMsg(boolean flag, String errorMsg, StockPO stockPO) {
         super(flag, errorMsg);
         this.stockPO = stockPO;
     }
+
 
     public StockPO getStockPO() {
         return stockPO;
@@ -18,6 +24,8 @@ public class StockPOResultMsg extends ResultMsg {
     public void setStockPO(StockPO stockPO) {
         this.stockPO = stockPO;
     }
+
+
 
     @Override
     public boolean equals(Object o) {

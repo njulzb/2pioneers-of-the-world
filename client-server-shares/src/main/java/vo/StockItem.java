@@ -1,6 +1,9 @@
 package vo;
 
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class StockItem implements Serializable{
@@ -8,15 +11,56 @@ public class StockItem implements Serializable{
     double open , high , low  ,close ,adjClose;
     long volume;
 
-    public StockItem(Date date, double open, double high, double low, double close, long volume, double adjClose) {
+    public StockItem(Date date, double open, double high, double low, double close, double adjClose, long volume) {
         this.date = date;
         this.open = open;
         this.high = high;
         this.low = low;
         this.close = close;
-        this.volume = volume;
         this.adjClose = adjClose;
+        this.volume = volume;
     }
+
+    /**
+     * 由数据表中的行直接构造
+     * @param line
+     */
+    public StockItem(String line){
+        String[] array = line.split("\t");
+        String dateStr = array[1],
+                openStr = array[2],
+                highStr = array[3],
+                lowStr = array[4],
+                closeStr = array[5],
+                volumeStr = array[6],
+                adjCloseStr = array[7];
+        DateFormat format = new SimpleDateFormat("MM/dd/yy");
+        Date date = null;
+        try {
+
+            date = format.parse(dateStr);
+        } catch (ParseException e1) {
+            e1.printStackTrace();
+            System.out.println("date format wrong");
+        }
+        double open = Double.parseDouble(openStr),
+                high = Double.parseDouble(highStr),
+                low = Double.parseDouble(lowStr),
+                close = Double.parseDouble(closeStr),
+                adjClose = Double.parseDouble(adjCloseStr);
+        long volume = Long.parseLong(volumeStr);
+
+
+        this.date = date;
+        this.open = open;
+        this.high = high;
+        this.low = low;
+        this.close = close;
+        this.adjClose = adjClose;
+        this.volume = volume;
+    }
+
+
 
     public Date getDate() {
         return date;
@@ -74,6 +118,13 @@ public class StockItem implements Serializable{
         this.adjClose = adjClose;
     }
 
+
+    @Override
+    public String toString() {
+        String result = String.format("date:%s\topen:%s\thigh:%s\tlow:%s\tclose:%s\tadj_close:%s\tvolume:%s\t",
+                date,open,high,low,close,adjClose,volume);
+        return result;
+    }
 
     @Override
     public boolean equals(Object o) {
