@@ -29,5 +29,10 @@ public class StockDAO implements StockDataService {
         return this.stockDataListByTxt.searchStockByCodeAndDate(code,begin,end);
     }
 
+    @Override
+    public StockPOResultMsg searchStockByNameAndDate(String name, Date begin, Date end) {
+        return this.stockDataListByTxt.searchStockByNameAndDate(name,begin,end);
+    }
+
 
 }

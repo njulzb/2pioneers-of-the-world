@@ -6,6 +6,7 @@ import resultMsg.StockResultMsg;
 import vo.StockItem;
 import vo.StockVO;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -32,5 +33,10 @@ public class StockQueryBLServiceStub implements StockQueryBLService {
         stockVOArrayList.add(stockVO);
         StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVOArrayList);
         return resultMsg;
+    }
+
+    @Override
+    public StockResultMsg queryStockByNameAndDate(String name, Date begin, Date end) throws RemoteException {
+        return null;
     }
 }

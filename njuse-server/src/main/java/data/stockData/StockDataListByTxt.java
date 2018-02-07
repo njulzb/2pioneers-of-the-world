@@ -10,6 +10,9 @@ import java.io.*;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * 数据文件第一行为标题行，随后的数据每行代表某只股票一天的涨跌数据，
@@ -163,5 +166,36 @@ public class StockDataListByTxt {
         }
         poResultMsg.getStockPO().setStockItemArrayList(newList);
         return poResultMsg;
+    }
+
+    public StockPOResultMsg searchStockByPredicate(Predicate condition){
+
+
+
+        List<String> list = this.stockInfoList.stream().filter(x->condition.test(x)).collect(Collectors.toList());
+        if (list==null || list.size()==0){
+            return new StockPOResultMsg(false,"no found",null);
+        }
+
+        ArrayList<StockItem> itemArrayList = new ArrayList<StockItem>();
+        list.forEach(x->itemArrayList.add(new StockItem(x)));
+
+        String line = list.get(0);
+        String[] array = line.split("\t");
+        String code = array[8],
+                name = array[9],
+                market = array[10];
+
+        StockPO stockPO = new StockPO(code,name,market,itemArrayList);
+        StockPOResultMsg resultMsg = new StockPOResultMsg(true,"successful",stockPO);
+
+
+        return resultMsg;
+    }
+
+    public StockPOResultMsg searchStockByNameAndDate(String name,Date begin,Date end){
+        PredicateFactory factory = new PredicateFactory();
+        Predicate predicate = factory.byNameAndDate(name,begin,end);
+        return this.searchStockByPredicate(predicate);
     }
 }
