@@ -26,15 +26,22 @@ public class StockList {
             return new StockResultMsg(false,"search failed",null);
         }
 
-        ArrayList<StockVO> voArrayList = new ArrayList<>();
-        voArrayList.add(new Stock(poResultMsg.getStockPO()).toVO());
-        return new StockResultMsg(true,"successful",voArrayList);
+        StockVO stockVO = new Stock(poResultMsg.getStockPO()).toVO();
+        return new StockResultMsg(true,"successful",stockVO);
 
     }
 
 
     public StockResultMsg queryStockByNameAndDate(String name,Date begin ,Date end){
-        //TODO
-        return null;
+        StockPOResultMsg poResultMsg = this.stockDAO.searchStockByNameAndDate(name,begin,end);
+
+        if (poResultMsg.isSuccessful()==false){
+            return new StockResultMsg(false,"search failed",null);
+        }
+
+
+        StockVO stockVO = new Stock(poResultMsg.getStockPO()).toVO();
+        return new StockResultMsg(true,"successful",stockVO);
+
     }
 }

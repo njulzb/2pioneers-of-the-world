@@ -3,6 +3,9 @@ package data.stockData;
 import dataService.stockDataService.StockDataService;
 import utility.poResultMsg.StockPOResultMsg;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class StockDAO implements StockDataService {
@@ -24,6 +27,8 @@ public class StockDAO implements StockDataService {
         return this.stockDataListByTxt.searchStockByMarket(market);
     }
 
+
+
     @Override
     public StockPOResultMsg searchStockByCodeAndDate(String code, Date begin, Date end) {
         return this.stockDataListByTxt.searchStockByCodeAndDate(code,begin,end);
@@ -31,6 +36,7 @@ public class StockDAO implements StockDataService {
 
     @Override
     public StockPOResultMsg searchStockByNameAndDate(String name, Date begin, Date end) {
+
         return this.stockDataListByTxt.searchStockByNameAndDate(name,begin,end);
     }
 

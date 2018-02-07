@@ -17,9 +17,8 @@ public class StockQueryBLServiceStub implements StockQueryBLService {
         ArrayList<StockItem> stockItemArrayList = new ArrayList<StockItem>();
         stockItemArrayList.add(item);
         StockVO stockVO = new StockVO("1","stub stock","stub market",stockItemArrayList);
-        ArrayList<StockVO> stockVOArrayList = new ArrayList<StockVO>();
-        stockVOArrayList.add(stockVO);
-        StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVOArrayList);
+
+        StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVO);
         return resultMsg;
     }
 
@@ -29,14 +28,17 @@ public class StockQueryBLServiceStub implements StockQueryBLService {
         ArrayList<StockItem> stockItemArrayList = new ArrayList<StockItem>();
         stockItemArrayList.add(item);
         StockVO stockVO = new StockVO("1","stub stock","stub market",stockItemArrayList);
-        ArrayList<StockVO> stockVOArrayList = new ArrayList<StockVO>();
-        stockVOArrayList.add(stockVO);
-        StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVOArrayList);
+        StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVO);
         return resultMsg;
     }
 
     @Override
     public StockResultMsg queryStockByNameAndDate(String name, Date begin, Date end) throws RemoteException {
-        return null;
+        StockItem item = new StockItem(new Date(),1,2,3,4,5,6);
+        ArrayList<StockItem> stockItemArrayList = new ArrayList<StockItem>();
+        stockItemArrayList.add(item);
+        StockVO stockVO = new StockVO("1","stub stock","stub market",stockItemArrayList);
+        StockResultMsg resultMsg = new StockResultMsg(true,"success",stockVO);
+        return resultMsg;
     }
 }
