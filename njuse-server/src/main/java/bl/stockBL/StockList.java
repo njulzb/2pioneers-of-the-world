@@ -33,4 +33,8 @@ public class StockList {
     }
 
 
+    public StockResultMsg queryStockByNameAndDate(String name,Date begin ,Date end){
+        //TODO
+        return null;
+    }
 }
