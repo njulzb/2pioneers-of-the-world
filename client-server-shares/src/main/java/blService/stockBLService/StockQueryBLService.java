@@ -9,7 +9,8 @@ import java.util.Date;
 
 
 public interface StockQueryBLService extends Remote{
-    public StockResultMsg queryStockByKey(KeyForSearchStock key) throws RemoteException;
-    public StockResultMsg queryStockByCodeAndDate(String code,Date begin ,Date end) throws RemoteException;
-    public StockResultMsg queryStockByNameAndDate(String name,Date begin,Date end) throws RemoteException;
+    StockResultMsg queryStockByKey(KeyForSearchStock key) throws RemoteException;
+    StockResultMsg queryStockByCodeAndDate(String code,Date begin ,Date end) throws RemoteException;
+    StockResultMsg queryStockByNameAndDate(String name,Date begin,Date end) throws RemoteException;
+
 }

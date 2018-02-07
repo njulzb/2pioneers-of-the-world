@@ -26,9 +26,8 @@ public class StockList {
             return new StockResultMsg(false,"search failed",null);
         }
 
-        ArrayList<StockVO> voArrayList = new ArrayList<>();
-        voArrayList.add(new Stock(poResultMsg.getStockPO()).toVO());
-        return new StockResultMsg(true,"successful",voArrayList);
+        StockVO stockVO = new Stock(poResultMsg.getStockPO()).toVO();
+        return new StockResultMsg(true,"successful",stockVO);
 
     }
 
@@ -40,9 +39,9 @@ public class StockList {
             return new StockResultMsg(false,"search failed",null);
         }
 
-        ArrayList<StockVO> voArrayList = new ArrayList<>();
-        voArrayList.add(new Stock(poResultMsg.getStockPO()).toVO());
-        return new StockResultMsg(true,"successful",voArrayList);
+
+        StockVO stockVO = new Stock(poResultMsg.getStockPO()).toVO();
+        return new StockResultMsg(true,"successful",stockVO);
 
     }
 }

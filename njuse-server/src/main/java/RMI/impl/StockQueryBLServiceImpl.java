@@ -11,12 +11,12 @@ import java.util.Date;
 public class StockQueryBLServiceImpl implements StockQueryBLService {
     private StockBLController controller = new StockBLController();
     @Override
-    public StockResultMsg queryStockByKey(KeyForSearchStock key) {
+    public StockResultMsg queryStockByKey(KeyForSearchStock key) throws RemoteException {
         return this.controller.queryStockByKey(key);
     }
 
     @Override
-    public StockResultMsg queryStockByCodeAndDate(String code, Date begin, Date end) {
+    public StockResultMsg queryStockByCodeAndDate(String code, Date begin, Date end) throws RemoteException {
         return this.controller.queryStockByCodeAndDate(code,begin,end);
     }
 
