@@ -49,8 +49,8 @@ public class StockMessageUI extends Pane {
 
         Kday_graphicPane graPane = new Kday_graphicPane(vo);
         this.getChildren().add(graPane);
-        graPane.setLayoutX(60);
-        graPane.setLayoutY(80);
+        graPane.setLayoutX(40);
+        graPane.setLayoutY(70);
 
 
     }

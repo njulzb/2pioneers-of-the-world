@@ -36,6 +36,9 @@ public class MainStage extends Application {
 
     }
 
+    public Pane getRoot() {
+        return root;
+    }
 
     public static void main(String[] args) {
         Application.launch(args);

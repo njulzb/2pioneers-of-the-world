@@ -1,18 +1,26 @@
 package UI.littleUI;
 
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.layout.Pane;
 
 import java.io.IOException;
+import java.net.URL;
 
 public class QiPaoView {
-	public Pane InfoPane(String message) throws IOException{
-		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("QiPaoView.fxml"));
-		Pane pane =fxmlLoader.load();
-		QiPaoViewController contro=fxmlLoader.getController();
+    public Pane InfoPane(String message) throws IOException {
+        System.out.println(getClass().getResource(""));
 
-		contro.init(message);
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("QiPaoView.fxml"));
+        Pane pane = fxmlLoader.load();
+//        URL url = getClass().getResource("QiPaoView.fxml");
+//        Pane pane = FXMLLoader.load(url);
 
-		return pane;
-	}
+
+        QiPaoViewController contro = fxmlLoader.getController();
+
+        contro.init(message);
+
+        return pane;
+    }
 }

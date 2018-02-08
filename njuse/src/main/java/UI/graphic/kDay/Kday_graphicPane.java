@@ -25,16 +25,17 @@ public class Kday_graphicPane extends Pane {
     private ArrayList<StockItem> list = new ArrayList<StockItem>();
 
 
-    public static double prefH = 400;
+
     private static double prefW = 600;
     private static double prefWmax = 600;
-
+    public static double prefH_up = 300;
+    public static double prefH_down = 100;
     public Kday_graphicPane(StockVO vo) {
         this.vo = vo;
 //       me.setStyle("-fx-border-color:  #ffffff");
         initData();
         me.setBackground(new Background(new BackgroundFill(Color.BLACK, null, null)));
-        me.setPrefSize(prefW, prefH);
+        me.setPrefSize(prefW, prefH_up);
         make();
     }
 
@@ -84,7 +85,7 @@ public class Kday_graphicPane extends Pane {
                 max = it.getHigh();
             }
         }
-        double scale = max / prefH;
+        double scale = max / prefH_up;
 
         leftMessagePane.setLayoutX(0);
         leftMessagePane.toFront();
@@ -104,27 +105,27 @@ public class Kday_graphicPane extends Pane {
         sp.setLayoutY(0);
         sp.setMinWidth(prefW);
         sp.setMaxWidth(prefW);
-        sp.setMinHeight(prefH);
-        sp.setMaxHeight(prefH);
+        sp.setMinHeight(prefH_up);
+        sp.setMaxHeight(prefH_up);
 
         HBox vb = new HBox();
         vb.setBackground(new Background(new BackgroundFill(Color.BLACK, null, null)));
 
-        sp.setVmax(prefH);
-        sp.setPrefSize(prefW, prefH);
+        sp.setVmax(prefH_up);
+        sp.setPrefSize(prefW, prefH_up);
         sp.setContent(vb);
         me.getChildren().add(sp);
 
         Pane line_buttom = new Pane();
         line_buttom.setLayoutX(50);
-        line_buttom.setLayoutY(prefH);
+        line_buttom.setLayoutY(prefH_up);
         line_buttom.setPrefSize(600, 1);
         line_buttom.setBackground(new Background(new BackgroundFill(Color.GRAY, null, null)));
         me.getChildren().add(line_buttom);
 
 
         for (StockItem it : list) {
-            Kday_item tp = new Kday_item(width, prefH, scale, it);
+            Kday_item tp = new Kday_item(width, prefH_up, scale,0, it);
             tp.setOnMouseEntered(new EventHandler<MouseEvent>() {
 
                 @Override
@@ -139,7 +140,7 @@ public class Kday_graphicPane extends Pane {
                     leftMessagePane.clear();
                 }
             });
-            tp.setPrefHeight(prefH);
+            tp.setPrefHeight(prefH_up);
             vb.getChildren().add(tp);
 
         }

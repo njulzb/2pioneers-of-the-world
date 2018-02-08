@@ -45,7 +45,7 @@ public class LoginMainUI extends Application {
     }
 
     public void makeUI() {
-        Label label_backgroundImg = new Label("", new ImageView(ImageHelper.getImg("login\\loginBackImg.jpg")));
+        Label label_backgroundImg = new Label("", new ImageView(ImageHelper.getImg("loginBackImg.jpg")));
         root.getChildren().add(label_backgroundImg);
 
         Pane loginBackPane = new Pane();

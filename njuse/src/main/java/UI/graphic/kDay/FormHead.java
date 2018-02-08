@@ -9,7 +9,7 @@ import javafx.scene.paint.Color;
 public class FormHead extends Pane {
     private FormHead me = this;
     private int KDnum = 5;
-    private double h = Kday_graphicPane.prefH;
+    private double h = Kday_graphicPane.prefH_up;
 
     public FormHead(double scale) {
         me.setBackground(new Background(new BackgroundFill(Color.BLACK, null, null)));

@@ -1,33 +1,36 @@
 package UI.littleUI;
 
+import UI.mainUI.MainStage;
 import javafx.application.Application;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.Label;
+import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 /**
- *
  * @author Alan
  */
 public class QiPaoUI extends Application {
-    static double y=440;
-    static double x=660;
+    static double y = 440;
+    static double x = 660;
 
-    public static void showTip(AnchorPane owner,String message) throws IOException  {
-        QiPaoView qipao =new QiPaoView();
+    private static double height = 35;
+
+    public static void showTip(AnchorPane owner, String message) throws IOException {
+        QiPaoView qipao = new QiPaoView();
 //	  mainPane=null;
 
-        final	Pane mainPane =qipao.InfoPane(message);
+        final Pane mainPane = qipao.InfoPane(message);
         mainPane.setMaxWidth(owner.getWidth());
         mainPane.setMinWidth(owner.getWidth());
         mainPane.setLayoutY(999);
@@ -49,20 +52,20 @@ public class QiPaoUI extends Application {
         Task t = new Task() {
             @Override
             protected Object call() throws Exception {
-                double toY =owner.getHeight()-30;
-                double nowY =owner.getHeight()+30;
-                System.out.println("startNowY="+nowY);
-                while(nowY>=toY+3) {
-                    nowY-=4;
+                double toY = owner.getHeight() - 30;
+                double nowY = owner.getHeight() + 30;
+                System.out.println("startNowY=" + nowY);
+                while (nowY >= toY + 3) {
+                    nowY -= 4;
                     mainPane.setLayoutY(nowY);
                     Thread.sleep(20);
                 }
 
                 Thread.sleep(1300);
-                for(int i=0;i<20;i++) {
+                for (int i = 0; i < 20; i++) {
                     ;
-                    mainPane.setLayoutY(nowY+2*i);
-                    mainPane.setOpacity(0.6-i*0.03);
+                    mainPane.setLayoutY(nowY + 2 * i);
+                    mainPane.setOpacity(0.6 - i * 0.03);
                     Thread.sleep(50);
 
                 }
@@ -74,57 +77,47 @@ public class QiPaoUI extends Application {
         new Thread(t).start();
     }
 
-    public static void showTip(Pane owner,String message) throws IOException  {
-        QiPaoView qipao =new QiPaoView();
-//		  mainPane=null;
+    public static void showTip(Pane owner, String message) throws IOException {
 
-        final	Pane mainPane =qipao.InfoPane(message);
+        final Pane mainPane = new Pane();
         mainPane.setMaxWidth(owner.getWidth());
         mainPane.setMinWidth(owner.getWidth());
-        mainPane.setLayoutY(999);
-        Text text = new Text(message);
-        text.setFont(new Font(20));
-        text.setFill(Color.YELLOW);
-        VBox box = new VBox();
-        box.getChildren().add(text);
-        box.setStyle("-fx-background:transparent;");
+        mainPane.setPrefWidth(owner.getWidth());
+        mainPane.setPrefHeight(30);
+        mainPane.setLayoutY(1999);
 
-        final int width = 200;
-        final int height = 50;
-        final Scene scene = new Scene(mainPane, width, height);
-        scene.setFill(null);
+        mainPane.setBackground(new Background(new BackgroundFill(Color.GRAY, null, null)));
 
 
         owner.getChildren().add(mainPane);
 
+        Label l_message = new Label(message);
+        l_message.setTextFill(Color.WHITE);
+        l_message.setPrefSize(mainPane.getPrefWidth(), mainPane.getPrefHeight());
+        l_message.setAlignment(Pos.CENTER);
 
-//
-//		final Stage stage = new Stage();
-//		stage.setAlwaysOnTop(true);
-//		stage.initStyle(StageStyle.TRANSPARENT);
-//		stage.setScene(scene);
-//		Rectangle2D primaryScreenBounds = Screen.getPrimary().getVisualBounds();
-//		stage.setX(primaryScreenBounds.getWidth() / 2 - width);
-//		stage.setY(primaryScreenBounds.getHeight() / 2 - height);
-//		stage.show();
+        l_message.setTextAlignment(TextAlignment.CENTER);
+        mainPane.getChildren().add(l_message);
+
+
         mainPane.toFront();
         Task t = new Task() {
             @Override
             protected Object call() throws Exception {
-                double toY =owner.getHeight()-30;
-                double nowY =owner.getHeight()+30;
-                System.out.println("startNowY="+nowY);
-                while(nowY>=toY+3) {
-                    nowY-=4;
+                double toY = owner.getHeight() - 30;
+                double nowY = owner.getHeight() + 30;
+                System.out.println("startNowY=" + nowY);
+                while (nowY >= toY + 3) {
+                    nowY -= 4;
                     mainPane.setLayoutY(nowY);
                     Thread.sleep(20);
                 }
 
                 Thread.sleep(1300);
-                for(int i=0;i<20;i++) {
+                for (int i = 0; i < 20; i++) {
                     ;
-                    mainPane.setLayoutY(nowY+2*i);
-                    mainPane.setOpacity(0.6-i*0.03);
+                    mainPane.setLayoutY(nowY + 2 * i);
+                    mainPane.setOpacity(0.6 - i * 0.03);
                     Thread.sleep(50);
 
                 }
@@ -137,6 +130,18 @@ public class QiPaoUI extends Application {
         };
         new Thread(t).start();
     }
+
+
+    public static void showTip(String message) {
+        try{
+            showTip(MainStage.getInstance().getRoot(),  message);
+        }
+        catch(Exception e){
+
+        }
+        ;
+    }
+
 
     @Override
     public void start(Stage primaryStage) {
@@ -153,13 +158,13 @@ public class QiPaoUI extends Application {
 //		});
 
 
-        Pane root = new  Pane();
+        Pane root = new Pane();
         root.getChildren().add(btn);
         Scene scene = new Scene(root, 300, 250);
 
         btn.setOnAction((ActionEvent event) -> {
             try {
-                showTip(root,"金币 +15");
+                showTip(root, "金币 +15");
             } catch (IOException e) {
                 // TODO 自动生成的 catch 块
                 e.printStackTrace();
@@ -173,8 +178,7 @@ public class QiPaoUI extends Application {
     }
 
     /**
-     * @param args
-     *            the command line arguments
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         launch(args);

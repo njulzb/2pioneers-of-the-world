@@ -2,6 +2,7 @@ package UI.loginUI;
 
 import UI.aaManager.LoginManager;
 import UI.littleUI.MyButton;
+import UI.uiHelper.LoginRemember;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
@@ -12,8 +13,7 @@ import javafx.scene.layout.Pane;
 public class LoginPane extends Pane {
 
     public LoginPane me = this;
-    public LoginManager manager=new LoginManager(me);
-    
+    public LoginManager manager = new LoginManager(me);
 
 
     public LoginPane() {
@@ -27,7 +27,7 @@ public class LoginPane extends Pane {
     }
 
     public void makeUI() {
-
+        String last[] = LoginRemember.getLast();
 
         Label label_username = new Label("账号：");
         label_username.setLayoutX(0);
@@ -35,7 +35,7 @@ public class LoginPane extends Pane {
         me.getChildren().add(label_username);
 
 
-        TextField unField = new TextField();
+        TextField unField = new TextField(last[0]);
         unField.setPrefSize(150, 20);
         unField.setLayoutX(40);
         unField.setLayoutY(80);
@@ -49,13 +49,14 @@ public class LoginPane extends Pane {
 
 
         PasswordField pwField = new PasswordField();
+        pwField.setText( last[1]);
         pwField.setPrefSize(150, 20);
         pwField.setLayoutX(40);
         pwField.setLayoutY(110);
         me.getChildren().add(pwField);
 
 
-        MyButton button_register =new MyButton( "注册" ,18 ,80);
+        MyButton button_register = new MyButton("注册", 18, 80);
         button_register.setLayoutX(0);
         button_register.setLayoutY(150);
         me.getChildren().add(button_register);
@@ -64,17 +65,13 @@ public class LoginPane extends Pane {
         });
 
 
-        MyButton button_login =new MyButton( "登录" ,18 ,80);
+        MyButton button_login = new MyButton("登录", 18, 80);
         button_login.setLayoutX(107);
         button_login.setLayoutY(150);
         me.getChildren().add(button_login);
         button_login.setOnAction((ActionEvent event) -> {
-            manager.login(unField.getText(),pwField.getText());
+            manager.login(unField.getText(), pwField.getText());
         });
-
-
-
-
 
 
     }
