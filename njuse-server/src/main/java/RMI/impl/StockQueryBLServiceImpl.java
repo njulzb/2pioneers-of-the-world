@@ -6,10 +6,15 @@ import keyForSearch.KeyForSearchStock;
 import resultMsg.StockResultMsg;
 
 import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.Date;
 
-public class StockQueryBLServiceImpl implements StockQueryBLService {
+public class StockQueryBLServiceImpl extends UnicastRemoteObject implements StockQueryBLService {
     private StockBLController controller = new StockBLController();
+
+    public StockQueryBLServiceImpl() throws RemoteException {
+    }
+
     @Override
     public StockResultMsg queryStockByKey(KeyForSearchStock key) throws RemoteException {
         return this.controller.queryStockByKey(key);
