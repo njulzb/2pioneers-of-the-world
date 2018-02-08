@@ -53,7 +53,9 @@ public class PredicateFactory {
             if (date == null) {
                 return false;
             }
-            return date.after(begin) && date.before(end);
+            boolean betweenFlag = date.after(begin) && date.before(end);
+            boolean pointFlag = date.equals(begin) || date.equals(end);
+            return betweenFlag || pointFlag;
         };
         return predicate;
     }

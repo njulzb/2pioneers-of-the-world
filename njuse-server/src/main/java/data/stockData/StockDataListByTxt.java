@@ -160,7 +160,10 @@ public class StockDataListByTxt {
         ArrayList<StockItem> itemArrayList = poResultMsg.getStockPO().getStockItemArrayList();
         ArrayList<StockItem> newList = new ArrayList<>();
         for (StockItem eItem : itemArrayList){
-            if (eItem.getDate().before(end) && eItem.getDate().after(begin)){
+            boolean betweenFlag = eItem.getDate().before(end) && eItem.getDate().after(begin);
+            boolean pointFlag = eItem.getDate().equals(begin) || eItem.getDate().equals(end);
+
+            if (betweenFlag || pointFlag){
                 newList.add(eItem);
             }
         }

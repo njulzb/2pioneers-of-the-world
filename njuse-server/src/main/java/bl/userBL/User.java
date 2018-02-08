@@ -1,4 +1,4 @@
-package bl.UserBL;
+package bl.userBL;
 
 import po.user.UserPO;
 import vo.UserVO;

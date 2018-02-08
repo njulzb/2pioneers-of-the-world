@@ -1,4 +1,4 @@
-package bl.UserBL;
+package bl.userBL;
 
 import blService.UserBLService.NormalUserBLService;
 import resultMsg.UserResultMsg;

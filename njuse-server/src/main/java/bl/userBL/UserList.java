@@ -1,4 +1,4 @@
-package bl.UserBL;
+package bl.userBL;
 
 import data.userData.UserDAO;
 import dataService.userDataService.UserDataService;
