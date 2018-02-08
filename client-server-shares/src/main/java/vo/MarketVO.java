@@ -1,13 +1,15 @@
 package vo;
 
+
 import java.util.Date;
 
 public class MarketVO {
     Date date;
-    long volume ;// 交易量
-    long numOfLimitUp,numOfLimitDown;
-    long numOfUpOver5 ,numOfDownOver5;
-    long numOfUpOverYesterday5 ,numOfDownBelowYesterday5;
+    long volume=0 ;// 交易量
+    long numOfLimitUp=0,numOfLimitDown=0;//涨停，跌停 股票数
+    long numOfUpOver5=0 ,numOfDownOver5=0;//涨幅超过5%，跌幅超过5%的股票数
+    long numOfUpOverYesterday5=0 ,numOfDownBelowYesterday5=0;//，开盘‐收盘大于 5%*上一个交易日收盘价的 股票个数
+
 
     public MarketVO(Date date, long volume, long numOfLimitUp, long numOfLimitDown, long numOfUpOver5, long numOfDownOver5, long numOfUpOverYesterday5, long numOfDownBelowYesterday5) {
         this.date = date;
@@ -19,7 +21,6 @@ public class MarketVO {
         this.numOfUpOverYesterday5 = numOfUpOverYesterday5;
         this.numOfDownBelowYesterday5 = numOfDownBelowYesterday5;
     }
-
 
     public Date getDate() {
         return date;
@@ -83,5 +84,50 @@ public class MarketVO {
 
     public void setNumOfDownBelowYesterday5(long numOfDownBelowYesterday5) {
         this.numOfDownBelowYesterday5 = numOfDownBelowYesterday5;
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        MarketVO marketVO = (MarketVO) o;
+
+        if (volume != marketVO.volume) return false;
+        if (numOfLimitUp != marketVO.numOfLimitUp) return false;
+        if (numOfLimitDown != marketVO.numOfLimitDown) return false;
+        if (numOfUpOver5 != marketVO.numOfUpOver5) return false;
+        if (numOfDownOver5 != marketVO.numOfDownOver5) return false;
+        if (numOfUpOverYesterday5 != marketVO.numOfUpOverYesterday5) return false;
+        if (numOfDownBelowYesterday5 != marketVO.numOfDownBelowYesterday5) return false;
+        return date != null ? date.equals(marketVO.date) : marketVO.date == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = date != null ? date.hashCode() : 0;
+        result = 31 * result + (int) (volume ^ (volume >>> 32));
+        result = 31 * result + (int) (numOfLimitUp ^ (numOfLimitUp >>> 32));
+        result = 31 * result + (int) (numOfLimitDown ^ (numOfLimitDown >>> 32));
+        result = 31 * result + (int) (numOfUpOver5 ^ (numOfUpOver5 >>> 32));
+        result = 31 * result + (int) (numOfDownOver5 ^ (numOfDownOver5 >>> 32));
+        result = 31 * result + (int) (numOfUpOverYesterday5 ^ (numOfUpOverYesterday5 >>> 32));
+        result = 31 * result + (int) (numOfDownBelowYesterday5 ^ (numOfDownBelowYesterday5 >>> 32));
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "MarketVO{" +
+                "date=" + date +
+                ", volume=" + volume +
+                ", numOfLimitUp=" + numOfLimitUp +
+                ", numOfLimitDown=" + numOfLimitDown +
+                ", numOfUpOver5=" + numOfUpOver5 +
+                ", numOfDownOver5=" + numOfDownOver5 +
+                ", numOfUpOverYesterday5=" + numOfUpOverYesterday5 +
+                ", numOfDownBelowYesterday5=" + numOfDownBelowYesterday5 +
+                '}';
     }
 }
