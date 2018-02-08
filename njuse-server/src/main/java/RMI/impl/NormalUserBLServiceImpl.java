@@ -1,6 +1,6 @@
 package RMI.impl;
 
-import bl.UserBL.UserBLController;
+import bl.userBL.UserBLController;
 import blService.UserBLService.NormalUserBLService;
 import resultMsg.UserResultMsg;
 

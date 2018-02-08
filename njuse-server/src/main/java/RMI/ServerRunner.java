@@ -1,7 +1,12 @@
 package RMI;
 
+import RMI.impl.MarketQueryBLServiceImpl;
 import RMI.impl.NormalUserBLServiceImpl;
+import RMI.impl.StockQueryBLServiceImpl;
 import blService.UserBLService.NormalUserBLService;
+import blService.marketBLService.MarketQueryBLService;
+import blService.stockBLService.StockQueryBLService;
+
 
 
 import java.net.MalformedURLException;
@@ -31,6 +36,17 @@ public class ServerRunner {
             //user
             NormalUserBLService normalUserBLService = new NormalUserBLServiceImpl();
             Naming.rebind(this.name.replaceAll("service","NormalUserBLService") , normalUserBLService);
+//            stock query bl service
+            StockQueryBLService stockQueryBLService = new StockQueryBLServiceImpl();
+            Naming.rebind(this.name.replaceAll("service","StockQueryBLService"),stockQueryBLService);
+
+//            market query bl service
+            MarketQueryBLService marketQueryBLService = new MarketQueryBLServiceImpl();
+            Naming.rebind(this.name.replaceAll("service","MarketQueryBLService"),marketQueryBLService);
+
+
+
+
 
         } catch (RemoteException e) {
             e.printStackTrace();
@@ -38,7 +54,7 @@ public class ServerRunner {
             e.printStackTrace();
         }
 
-        System.out.println("server launched successfully");
+        System.out.println("server launched successfully!!!");
 
     }
 

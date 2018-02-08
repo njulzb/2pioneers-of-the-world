@@ -1,6 +1,7 @@
 package rmi;
 
 import blService.UserBLService.NormalUserBLService;
+import blService.stockBLService.StockQueryBLService;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -24,6 +25,7 @@ public class ClientRunner {
 
     //services
     NormalUserBLService normalUserBLService;
+    StockQueryBLService stockQueryBLService;
 
     private ClientRunner() {
 
@@ -34,5 +36,11 @@ public class ClientRunner {
                 Naming.lookup(this.name.replaceAll("service","NormalUserBLService"));
 
         return this.normalUserBLService;
+    }
+
+    public StockQueryBLService getStockQueryBLService() throws RemoteException, NotBoundException, MalformedURLException {
+        this.stockQueryBLService = (StockQueryBLService)
+                Naming.lookup(this.name.replaceAll("service","StockQueryBLService"));
+        return this.stockQueryBLService;
     }
 }

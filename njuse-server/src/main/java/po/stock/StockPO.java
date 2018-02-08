@@ -7,14 +7,14 @@ import java.util.ArrayList;
 
 public class StockPO implements Serializable{
 
-    String code,name,marktet;
+    String code,name, market;
 
     ArrayList<StockItem> stockItemArrayList;
 
-    public StockPO(String code, String name, String marktet, ArrayList<StockItem> stockItemArrayList) {
+    public StockPO(String code, String name, String market, ArrayList<StockItem> stockItemArrayList) {
         this.code = code;
         this.name = name;
-        this.marktet = marktet;
+        this.market = market;
         this.stockItemArrayList = stockItemArrayList;
     }
 
@@ -34,12 +34,12 @@ public class StockPO implements Serializable{
         this.name = name;
     }
 
-    public String getMarktet() {
-        return marktet;
+    public String getMarket() {
+        return market;
     }
 
-    public void setMarktet(String marktet) {
-        this.marktet = marktet;
+    public void setMarket(String market) {
+        this.market = market;
     }
 
     public ArrayList<StockItem> getStockItemArrayList() {
@@ -59,7 +59,7 @@ public class StockPO implements Serializable{
 
         if (code != null ? !code.equals(stockPO.code) : stockPO.code != null) return false;
         if (name != null ? !name.equals(stockPO.name) : stockPO.name != null) return false;
-        if (marktet != null ? !marktet.equals(stockPO.marktet) : stockPO.marktet != null) return false;
+        if (market != null ? !market.equals(stockPO.market) : stockPO.market != null) return false;
         return stockItemArrayList != null ? stockItemArrayList.equals(stockPO.stockItemArrayList) : stockPO.stockItemArrayList == null;
     }
 
@@ -67,8 +67,18 @@ public class StockPO implements Serializable{
     public int hashCode() {
         int result = code != null ? code.hashCode() : 0;
         result = 31 * result + (name != null ? name.hashCode() : 0);
-        result = 31 * result + (marktet != null ? marktet.hashCode() : 0);
+        result = 31 * result + (market != null ? market.hashCode() : 0);
         result = 31 * result + (stockItemArrayList != null ? stockItemArrayList.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "StockPO{" +
+                "code='" + code + '\'' +
+                ", name='" + name + '\'' +
+                ", market='" + market + '\'' +
+                ", stockItemArrayList=" + stockItemArrayList +
+                '}';
     }
 }
