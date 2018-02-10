@@ -1,11 +1,12 @@
 package vo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
  */
-public class StockVO {
+public class StockVO implements Serializable {
     String code,name, market;
 
     ArrayList<StockItem> stockItemArrayList;
