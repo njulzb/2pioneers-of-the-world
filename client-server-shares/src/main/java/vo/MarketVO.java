@@ -1,9 +1,10 @@
 package vo;
 
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class MarketVO {
+public class MarketVO implements Serializable {
     Date date;
     long volume=0 ;// 交易量
     long numOfLimitUp=0,numOfLimitDown=0;//涨停，跌停 股票数
