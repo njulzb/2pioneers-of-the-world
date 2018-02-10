@@ -59,16 +59,7 @@ public class Kday_graphicPane extends Pane {
         endDate = new Date(2013, 1, 5);
         StockItem tp;
 
-        tp = new StockItem(new Date(2013, 1, 1), 100, 200, 3, 130, 20, 100);
-        list.add(tp);
-        tp = new StockItem(new Date(2013, 1, 2), 130, 150, 80, 140, 20, 100);
-        list.add(tp);
-        tp = new StockItem(new Date(2013, 1, 3), 130, 150, 80, 140, 20, 100);
-        list.add(tp);
-        tp = new StockItem(new Date(2013, 1, 4), 130, 150, 80, 140, 20, 100);
-        list.add(tp);
-        tp = new StockItem(new Date(2013, 1, 5), 190, 150, 80, 140, 20, 100);
-        list.add(tp);
+
     }
 
     public void make() {

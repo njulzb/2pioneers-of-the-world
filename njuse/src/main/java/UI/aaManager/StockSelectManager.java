@@ -4,12 +4,18 @@ import UI.littleUI.QiPaoUI;
 import UI.mainUI.MainStage;
 import UI.stockUI.StockMessageUI;
 import UI.stockUI.StockSelectUI;
+import UI.uiHelper.DateHelper;
 import keyForSearch.KeyForSearchStock;
+import resultMsg.StockResultMsg;
 import rmi.ClientRunner;
 import vo.StockVO;
 
+import java.net.MalformedURLException;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class StockSelectManager {
     private StockSelectUI ui;
@@ -49,7 +55,37 @@ public class StockSelectManager {
 
 
 
-        selectOneStock(null);
+        Date start = DateHelper.LocalDateToDate(sDate);
+        Date end = DateHelper.LocalDateToDate(eDate);
+        StockResultMsg srm = null;
+
+
+        System.out.println("startdate="+start.toString());
+        MainStage.getInstance().changePaneWithNavigation(new StockMessageUI(null));
+
+//        try {
+//            srm = ClientRunner.getInstance().getStockQueryBLService()
+//                    .queryStockByCodeAndDate(input, start, end);
+//
+//
+//        } catch (RemoteException e) {
+//            e.printStackTrace();
+//        } catch (NotBoundException e) {
+//            e.printStackTrace();
+//        } catch (MalformedURLException e) {
+//            e.printStackTrace();
+//        }
+//
+//        if (srm == null) {
+//            QiPaoUI.showTip("searchResultMessage = null");
+//            return out;
+//        } else if (!srm.isSuccessful()) {
+//            QiPaoUI.showTip(srm.getErrorMsg());
+//            return out;
+//        } else {
+//            MainStage.getInstance().changePaneWithNavigation(new StockMessageUI(srm.getStockVO()));
+//
+//        }
 
 
         //添加rmi相关部分f
