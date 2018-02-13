@@ -1,4 +1,4 @@
-package UI.graphic.kDay;
+package UI.graphic.newKDay;
 
 import UI.uiHelper.DateHelper;
 import javafx.scene.control.Label;

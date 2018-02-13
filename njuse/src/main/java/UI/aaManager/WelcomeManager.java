@@ -2,8 +2,11 @@ package UI.aaManager;
 
 import UI.mainUI.MainStage;
 import UI.marketTemUI.MarketTemMainUI;
-import UI.stockUI.StockSelectUI;
+import UI.stockUI.StockMessageUI;
+import UI.stockUI.StockSelectWindows;
 import UI.welcomeUI.WelcomeMainUI;
+import javafx.stage.Stage;
+import resultMsg.StockResultMsg;
 
 public class WelcomeManager {
     private WelcomeMainUI ui ;
@@ -15,10 +18,19 @@ public class WelcomeManager {
 
 
     public void callFunction_stockMessage(){
-        MainStage.getInstance().changePaneWithNavigation(new StockSelectUI());
+        StockSelectWindows ssw= new StockSelectWindows();
+        ssw.showSelector();
+        if(ssw.stockResultMsg==null){
+            return;
+        }
+        StockResultMsg smsg=  ssw.stockResultMsg;
+        MainStage.getInstance().changePaneWithNavigation(new StockMessageUI(smsg));
+
     }
     public void callFunction_marketThermometer(){
+
         MainStage.getInstance().changePaneWithNavigation(new MarketTemMainUI(null));
+
     }
 
 }

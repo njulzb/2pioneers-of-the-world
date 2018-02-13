@@ -1,5 +1,6 @@
 package UI.mainUI;
 
+import UI.littleUI.CloseButton;
 import UI.littleUI.MyButton;
 import UI.littleUI.MyButton_img;
 import UI.loginUI.LoginMainUI;
@@ -66,11 +67,13 @@ public class MainStage extends Application {
 
     public void makeUI() {
 
-        MyButton_img label_close = new MyButton_img("littleIcon\\close.png");
-        label_close.setLayoutX(750);
-        label_close.setLayoutY(10);
-        root.getChildren().add(label_close);
-        label_close.toFront();
+        CloseButton cb=new CloseButton(thisStage);
+        cb.setLayoutX(UISys.getWindowsW()-30);
+        cb.setLayoutY(10);
+        cb.toFront();
+        root.getChildren().add(cb);
+
+
     }
 
 
