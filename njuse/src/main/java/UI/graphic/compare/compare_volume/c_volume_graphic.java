@@ -23,14 +23,14 @@ public class c_volume_graphic extends Pane {
 
 
     private double high = 0, low = 0, scale = 1;
-    private LeftMessagePane leftPane;
+    private c_volume_leftPane leftPane;
     private ArrayList<StockVO> stockList = new ArrayList<StockVO>();
     private ArrayList<c_kday_oneStockCard> cardList = new ArrayList<c_kday_oneStockCard>();
 
     private static final int formHeadNum = 5; //fromHeadNum：表头刻度的个数
 
 
-    public c_volume_graphic(ArrayList<StockVO> stockList, LeftMessagePane leftPane) {
+    public c_volume_graphic(ArrayList<StockVO> stockList, c_volume_leftPane leftPane) {
         this.stockList.addAll(stockList);
         this.leftPane = leftPane;
         make();

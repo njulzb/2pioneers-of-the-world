@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class c_volume_mainPane extends Pane {
     private c_volume_mainPane me = this;
     private ArrayList<StockVO> stockList = new ArrayList<StockVO>();
-    private LeftMessagePane leftMessagePane;
+    private c_volume_leftPane leftMessagePane;
     private c_volume_graphic graphicPane;
 
     public c_volume_mainPane(ArrayList<StockVO> stockList) {
@@ -31,7 +31,7 @@ public class c_volume_mainPane extends Pane {
     }
 
     private void initLeftPane() {
-        leftMessagePane = new LeftMessagePane();
+        leftMessagePane = new c_volume_leftPane();
         leftMessagePane.setLayoutX(0);
         leftMessagePane.setLayoutY(0);
         me.getChildren().add(leftMessagePane);
