@@ -1,7 +1,6 @@
 package UI.marketTemUI;
 
 import UI.graphic.MarketTem.MarketTemGraphicPane;
-import UI.graphic.kDay.Kday_graphicPane;
 import UI.stockUI.StockMessageUI;
 import UI.uiHelper.DateHelper;
 import javafx.scene.control.Label;
@@ -105,7 +104,20 @@ public class MarketTemMainUI extends Pane {
         this.getChildren().add(label_numDownYesterday5);
         n++;
 
-        MarketTemGraphicPane graphic = new MarketTemGraphicPane(null);
+
+        long[] num = new long[11];
+        num[0] = vo.getNumOfLimitUp();
+        num[1]=vo.getNumOfLimitDown();
+        num[2]=vo.getNumOfUpOver5();
+        num[3]=vo.getNumOfDownOver5();
+        num[4]=vo.getNumOfUpOverYesterday5();
+        num[5]=vo.getNumOfDownBelowYesterday5();
+
+        /**
+         * num[0-5] 涨停数，跌停数，涨幅超过5,跌幅超过5，波动幅度大于5%，波动幅度小于5%
+         */
+
+        MarketTemGraphicPane graphic = new MarketTemGraphicPane(num);
         graphic.setLayoutX(300);
         graphic.setLayoutY(180);
         me.getChildren().add(graphic);

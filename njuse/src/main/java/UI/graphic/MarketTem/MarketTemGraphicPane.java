@@ -33,10 +33,9 @@ public class MarketTemGraphicPane extends Pane {
     /**
      * num[0-5] 涨停数，跌停数，涨幅超过5,跌幅超过5，波动幅度大于5%，波动幅度小于5%
      */
-
-    public MarketTemGraphicPane(int[] num) {
+    public MarketTemGraphicPane(long[] num) {
         if (num != null) {
-            for (int d : num) {
+            for (long d : num) {
                 sum += d;
             }
         } else {
